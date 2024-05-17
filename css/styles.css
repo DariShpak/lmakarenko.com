@@ -75,10 +75,16 @@ img {
   font-size: 18px;
 }
 
-.subtitle {
-  font-weight: 100;
-  font-size: 16px;
+.title-italic {
+  font-style: italic;
 }
+
+.text {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+
 
 /* -----------------SITE-HEADER------------------------ */
 
@@ -102,9 +108,20 @@ justify-content: center;
 
 .hero-title {
   font-weight: 200;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .hero-btn {
   font-size: 14px;
+  width: 234px;
+  height: 58px;
+
+  border: solid 1px;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
