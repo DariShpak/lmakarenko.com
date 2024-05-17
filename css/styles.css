@@ -72,7 +72,12 @@ img {
 
 .title {
   font-weight: 300;
-  font-size: 1;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-weight: 100;
+  font-size: 16px;
 }
 
 /* -----------------SITE-HEADER------------------------ */
@@ -96,6 +101,10 @@ justify-content: center;
 }
 
 .hero-title {
-  font-weight: 400;
-  font-size: 22;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.hero-btn {
+  font-size: 14px;
 }
