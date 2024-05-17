@@ -1,12 +1,19 @@
 :root {
-  --background-color: #faf5e8;
+  --main-bg-color: #faf5e8;
+  --pink-bg-color: #d9b4bf;
+  --main-dark-bg-color: #ddd5c0;
+  --blue-bg-color: #7b9bb0;
+  --orange-bg-color: #bf9080;
+  --khaki-bg-color: #a9a985;
+  --main-text-color: #322d31;
 }
 
 body {
-  font-family: "FixelDisplay", sans-serif;
-   font-weight: 100;
-   font-size: 14;
-  background-color: var(--background-color);
+  font-family: "Manrope", sans-serif;
+  color: var(--main-text-color);
+  font-weight: 200;
+  font-size: 14;
+  background-color: var(--main-bg-color);
 }
 .visually-hidden {
   position: absolute;
@@ -27,11 +34,7 @@ body {
   pointer-events: none;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
+a {
   text-decoration: none;
 }
 
@@ -52,10 +55,47 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 1;
+}
+
+/* -----------------SITE-HEADER------------------------ */
+
+.header-container {
+display: flex;
+justify-content: center;
+}
+
+
+/* -----------------HERO------------------------ */
+
+.hero {
+  background-color: var(--pink-bg-color);
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 22;
 }
