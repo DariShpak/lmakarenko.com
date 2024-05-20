@@ -3,12 +3,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Human Engineering</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -22,50 +19,56 @@
     <header>
       <div class="container header-container">
         <a href="/">
-          <img
-            src="./images/H.E. - 2 Black Logo Transparent.png"
-            alt="logo"
-            width="172"
+          <img class="logo" src="/images/logo.png" alt="logo" width="242"
         /></a>
-        <!-- <nav class="header-nav">
-          <ul>
-            <li>
-              <a href="#about">про мене</a>
-            </li>
-            <li>
-              <a href="#services">послуги</a>
-            </li>
-            <li>
-              <a href="#projects">мої проекти</a>
-            </li>
-            <li>Календар подій</li>
-            <li>контакти</li>
-          </ul>
-        </nav> -->
+
+        <div class="nav-wrap">
+          <nav>
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link link" href="#about">Про мене</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="#services">Послуги</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="#projects">Проекти</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="#calendar">Події</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="/">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
+
     <section class="hero">
       <div class="container hero-container">
         <h1 class="hero-title">Леся Макаренко</h1>
-        <h2 class="title title-italic">Сертифікований аналітик з Хьюман Дизайн</h2>
-        <img
-          src="./images/photo_2024-05-16 19.31.03.jpg"
-          alt="фотографія експерта"
-          width="340"
-        />
+        <h2 class="hero-subtitle">
+          Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні сильні сторони.
+        </h2>
 
-        <p class="text">
-          1:1 прочитання та консультації. Підсилюю ваші природні сильні сторони.
-        </p>
-        <button class="hero-btn" type="button">
-          <p class="text">Замовити прочитання</p></button>
-         </button>
+        <button class="hero-btn" type="button">Замовити прочитання</button>
+
+        <div class="hero-img">
+          <img
+            src="/images/hero-img.jpg"
+            alt="фотографія експерта"
+            width="340"
+          />
+        </div>
       </div>
     </section>
     <section id="about" class="about">
       <div class="container about-container">
-        <h2 class="title">Про мене</h2>
-        <p class="text">Мовою дизайну - я емоційний Генератор 6/2.</p>
+        <h2 class="about-subtitle">Про мене</h2>
+
+      <div class="about-text-area"> <p class="text">Мовою дизайну - я емоційний Генератор 6/2.</p>
         <p class="text">
           Звичною мовою - я жінка, дружина, мама підлітка та людина, що завжди
           досліджує життя. У мене інженерна освіта, багаторічний успішний досвід
@@ -78,13 +81,14 @@
           той самий момент більш чіткої системи, яке пояснює механіку людини і
           те, як ми генетично влаштовані взаємодіяти і приймати коректні для нас
           рішення, спираючись на свою внутрішню правду.
-        </p>
+        </p></div>
+       
       </div>
     </section>
     <section id="services" class="services">
       <div class="container services-container">
-        <h2 class="title">Послуги та точки дотику</h2>
-        <ul>
+        <h2 class="about-subtitle">Послуги та точки дотику</h2>
+        <div class="about-text-area"> <ul> 
           <li>Базові прочитання карти</li>
           <li>Дитячі прочитання карти</li>
           <li>Композит (сумісність партнерів в бізнесі, стосунках)</li>
@@ -97,13 +101,14 @@
           Також ми систематично проводимо навчання та різноманітні заходи для
           знайомства з темою дизайну та застосування цього знання у
           повсякденному житті.
-        </p>
+        </p></div>
+       
         <button class="hero-btn" type="button">Замовити консультацію</button>
       </div>
     </section>
     <section id="projects" class="projects">
       <div class="container projects-container">
-        <h2 class="title">Мої проекти</h2>
+        <h2 class="about-subtitle">Мої проекти</h2>
         <ul>
           <li>Серія подкастів "Робочий дофамін"</li>
           <li>Рейв ABC</li>
@@ -111,33 +116,29 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section id="calendar" class="calendar">
       <div class="container">
-        <h2>Розклад майбутніх подій</h2>
+        <h2 class="about-subtitle">Розклад майбутніх подій</h2>
         <ul>
           <li>
             <p>подія 1</p>
-            <button>купити участь</button>
+            <button class="hero-btn">купити участь</button>
           </li>
           <li>
             <p>подія 2</p>
-            <button>зареєструватись</button>
+            <button class="hero-btn">зареєструватись</button>
           </li>
         </ul>
       </div>
     </section>
     <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
-    <footer class="footer"> 
+    <footer class="footer">
       <div class="container footer-container">
         <address>м. Київ, вул. Гоголівська, 34</address>
         <address>
           <a href="mailto:2208513@gmail.com">2208513@gmail.com</a>
         </address>
-        <img
-          src="./images/H.E. - 2 Black Logo Transparent.png"
-          alt="logo"
-          width="210"
-        />
+        <img src="/images/logo.png" alt="logo" width="210" />
         <ul>
           <li>
             <a
