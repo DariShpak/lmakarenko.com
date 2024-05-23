@@ -3,10 +3,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Human Engineering</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/fav.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,174 +20,225 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container header-container">
-        <a href="/">
-          <img
-            class="logo"
-            src="./images/logo.png"
-            alt="логотип сайту"
-            width="242"
-        /></a>
-
-        <div class="nav-wrap">
-          <nav>
-            <ul class="nav-list">
-              <li>
-                <a class="nav-link link" href="#about">Про мене</a>
-              </li>
-              <li>
-                <a class="nav-link link" href="#services">Послуги</a>
-              </li>
-              <li>
-                <a class="nav-link link" href="#projects">Проекти</a>
-              </li>
-              <li>
-                <a class="nav-link link" href="#calendar">Події</a>
-              </li>
-              <li>
-                <a class="nav-link link" href="/">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="container hero-container">
-          <h1 class="hero-title">Леся Макаренко</h1>
-          <h2 class="hero-subtitle">
-            Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
-            сильні сторони.
-          </h2>
-          <button class="hero-btn" type="button">Замовити прочитання</button>
-
-          <div class="hero-img">
+    <div class="body-wrapper">
+      <header class="header">
+        <div class="container header-container">
+          <a href="/">
             <img
-              src="./images/photo2.jpg"
-              alt="фотографія експерта"
-              width="340"
-            />
-          </div>
-        </div>
-      </section>
-      <section id="about" class="about">
-        <div class="container about-container">
-          <h2 class="about-subtitle">Про мене</h2>
+              class="logo"
+              src="./images/logo.png"
+              alt="логотип сайту"
+              width="140"
+          /></a>
 
-          <div class="about-text-area">
-            <p class="text">Мовою дизайну - я емоційний Генератор 6/2.</p>
-            <p class="text">
-              Звичною мовою - я жінка, дружина, мама підлітка та людина, що
-              завжди досліджує життя. У мене інженерна освіта, багаторічний
-              успішний досвід створення та побудови бізнесу. Вивчала і
-              практикувала різноманітні системи і методи роботи з людьми:
-              коучінг, медіація, екофасілітація, лідерські програми. Моє
-              тотальне занурення у Human Design (HD) відбулося у 2014 році.
-              Система HD підтвердила все те, що я отримала як досвід взаємодії з
-              людьми через інші інструменти. Та за цей час плідної співпраці з
-              цим знанням - я й досі не знаю більш обʼємної і в той самий момент
-              більш чіткої системи, яке пояснює механіку людини і те, як ми
-              генетично влаштовані взаємодіяти і приймати коректні для нас
-              рішення, спираючись на свою внутрішню правду.
-            </p>
+          <div class="nav-wrap">
+            <nav>
+              <ul class="nav-list">
+                <li>
+                  <a class="nav-link link" href="#about">Про мене</a>
+                </li>
+                <li>
+                  <a class="nav-link link" href="#services">Послуги</a>
+                </li>
+                <li>
+                  <a class="nav-link link" href="#projects">Проекти</a>
+                </li>
+                <li>
+                  <a class="nav-link link" href="#calendar">Події</a>
+                </li>
+                <li>
+                  <a class="nav-link link" href="#contacts">Контакти</a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </section>
-      <section id="services" class="services">
-        <div class="container services-container">
-          <h2 class="about-subtitle">Послуги та точки дотику</h2>
-          <div class="about-text-area">
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container hero-container">
+            <div class="hero-text-content">
+              <h1 class="hero-title">Леся Макаренко</h1>
+              <h2 class="hero-subtitle">
+                Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
+                сильні сторони.
+              </h2>
+              <button class="hero-btn" type="button">
+                Замовити прочитання
+              </button>
+            </div>
+
+            <div class="hero-img">
+              <img
+                src="./images/photo2.jpg"
+                alt="фотографія експерта"
+                width="380"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="container about-container">
+            <h2 class="about-title visually-hidden">Про мене</h2>
+
+            <div class="about-text-area">
+              <p class="text">Мовою дизайну - я емоційний Генератор 6/2.</p>
+              <p class="text">
+                Звичною мовою - я жінка, дружина, мама підлітка та людина, що
+                завжди досліджує життя. У мене інженерна освіта, багаторічний
+                успішний досвід створення та побудови бізнесу. Вивчала і
+                практикувала різноманітні системи і методи роботи з людьми:
+                коучінг, медіація, екофасілітація, лідерські програми. Моє
+                тотальне занурення у Human Design (HD) відбулося у 2014 році.
+                Система HD підтвердила все те, що я отримала як досвід взаємодії
+                з людьми через інші інструменти. Та за цей час плідної співпраці
+                з цим знанням - я й досі не знаю більш обʼємної і в той самий
+                момент більш чіткої системи, яке пояснює механіку людини і те,
+                як ми генетично влаштовані взаємодіяти і приймати коректні для
+                нас рішення, спираючись на свою внутрішню правду.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="services">
+          <div class="container services-container">
+            <div class="services-content-top">
+              <h2 class="services-title">Послуги та точки дотику</h2>
+              <ul class="services-list">
+                <li class="services-item">
+                  <h3 class="services-subtitle">Базові прочитання карти</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus, labore.
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Дитячі прочитання карти</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eveniet, in.
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Композит (сумісність партнерів в бізнесі, стосунках)</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, reiciendis?
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Призначення</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi, voluptates.
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Карʼєрний профіль</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam, facilis.
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Інженеринг команд</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, quos.
+                  </p>
+                </li>
+                <li class="services-item">
+                  <h3 class="services-subtitle">Читання циклів</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ipsam, vero.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="services-content-bottom">
+              <p class="services-text">
+                Також ми систематично проводимо навчання та різноманітні заходи
+                для знайомства з темою дизайну та застосування цього знання у
+                повсякденному житті.
+              </p>
+
+              <button class="hero-btn" type="button">
+                Замовити консультацію
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="projects">
+          <div class="container projects-container">
+            <h2 class="about-subtitle">Мої проекти</h2>
             <ul>
-              <li>Базові прочитання карти</li>
-              <li>Дитячі прочитання карти</li>
-              <li>Композит (сумісність партнерів в бізнесі, стосунках)</li>
-              <li>Призначення</li>
-              <li>Карʼєрний профіль</li>
-              <li>Інженеринг команд</li>
-              <li>Читання циклів</li>
+              <li>Серія подкастів "Робочий дофамін"</li>
+              <li>Рейв ABC</li>
+              <li>Курс "Жити свій дизайн"</li>
             </ul>
-            <p>
-              Також ми систематично проводимо навчання та різноманітні заходи
-              для знайомства з темою дизайну та застосування цього знання у
-              повсякденному житті.
-            </p>
           </div>
-
-          <button class="hero-btn" type="button">Замовити консультацію</button>
-        </div>
-      </section>
-      <section id="projects" class="projects">
-        <div class="container projects-container">
-          <h2 class="about-subtitle">Мої проекти</h2>
-          <ul>
-            <li>Серія подкастів "Робочий дофамін"</li>
-            <li>Рейв ABC</li>
-            <li>Курс "Жити свій дизайн"</li>
-          </ul>
-        </div>
-      </section>
-      <section id="calendar" class="calendar">
-        <div class="container">
-          <h2 class="about-subtitle">Розклад майбутніх подій</h2>
-          <ul>
-            <li>
-              <p>подія 1</p>
-              <button class="hero-btn">купити участь</button>
-            </li>
-            <li>
-              <p>подія 2</p>
-              <button class="hero-btn">зареєструватись</button>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
-      <section>
-        <h2>Контакти</h2>
-  <address>
+        </section>
+        <section id="calendar" class="calendar">
+          <div class="container">
+            <h2 class="about-subtitle">Розклад майбутніх подій</h2>
+            <ul>
+              <li>
+                <p>подія 1</p>
+                <button class="hero-btn">купити участь</button>
+              </li>
+              <li>
+                <p>подія 2</p>
+                <button class="hero-btn">зареєструватись</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
+        <section id="contacts" class="contacts">
+          <h2>Контакти</h2>
+          <address>
+            <ul>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
+                  target="_blank"
+                  rel="no-opener no-referrer no-follow"
+                  >м. Київ, вул. Гоголівська, 34</a
+                >
+              </li>
+              <li><a href="mailto:2208513@gmail.com">2208513@gmail.com</a></li>
+            </ul>
+          </address>
           <ul>
             <li>
               <a
-                href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
+                href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
                 target="_blank"
                 rel="no-opener no-referrer no-follow"
-                >м. Київ, вул. Гоголівська, 34</a
+                >instagram</a
               >
             </li>
-            <li><a href="mailto:2208513@gmail.com">2208513@gmail.com</a></li>
+            <li>
+              <a
+                href="https://www.facebook.com/lesia.makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow"
+                >facebook</a
+              >
+            </li>
           </ul>
-        </address>
-            <ul>
-          <li>
-            <a
-              href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
-              target="_blank"
-              rel="no-opener no-referrer no-follow"
-              >instagram</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/lesia.makarenko"
-              target="_blank"
-              rel="no-opener no-referrer no-follow"
-              >facebook</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
+        </section>
+      </main>
 
-    <footer class="footer">
-      <div class="container footer-container">
-      
-        <img src="./images/logo.png" alt="logo" width="210" />
-    
-        <p class="text">Всі права захищені &copy; HE, 2024</p>
-        <p class="text">Designed and developed with ❤️ by Dari Shpak</p>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="container footer-container">
+          <img src="./images/logo.png" alt="logo" width="210" />
+
+          <p class="text">Всі права захищені &copy; HE, 2024</p>
+          <p class="text">Designed and developed with ❤️ by Dari Shpak</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
