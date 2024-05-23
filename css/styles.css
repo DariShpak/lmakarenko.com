@@ -7,22 +7,16 @@
   --khaki-bg-color: #a9a985;
   --main-text-color: #322d31;
 
-  --white-duck: #e5dfd3;
-  --powder: #f7f6f1;
-  --pearl: #f6f6f6;
-  --off-white: #eaeaea;
-  --wing: #eaeff3;
-  --porcelaine: #eff1f0;
-  --cream: #f3f2ed;
-
   --background-color: #fff;
   --greyish: #f1f1f1;
-  --accent: #e8e8e8;
+  --active-greyish: #e8e8e8;
+  --lemony: #fbecb5;
+  --text-color: #17181a;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: var(--main-text-color);
+  color: var(--text-color);
   font-weight: 200;
   font-size: 14;
   background-color: var(--background-color);
@@ -51,7 +45,7 @@ body {
 }
 
 .link:visited {
-  color: var(--main-text-color);
+  color: var(--text-color);
 }
 
 button {
@@ -119,23 +113,31 @@ img {
   display: flex;
   gap: 24px;
 
-  color: var(--main-text-color);
+  color: var(--text-color);
   font-size: 16px;
+  font-weight: 300;
   text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--lemony);
 }
 
 /* -----------------HERO------------------------ */
 
+
+
 .hero-title {
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 200;
+  font-size: 40px;
   text-transform: uppercase;
 
   margin-bottom: 14px;
 }
 
 .hero-subtitle {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   margin-bottom: 14px;
 }
@@ -162,6 +164,7 @@ img {
   padding-bottom: 5px;
 
   margin-bottom: 14px;
+
 }
 
 .hero-btn:hover,
@@ -208,12 +211,9 @@ img {
   gap: 20px;
 }
 
-
-
 .footer-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-   background-color: var(--greyish);
-
+  background-color: var(--greyish);
 }
