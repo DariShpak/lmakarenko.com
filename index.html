@@ -21,6 +21,7 @@
   </head>
   <body>
     <div class="body-wrapper">
+       <button id="scrollToTopBtn">Вгору</button>
       <header class="header">
         <div class="container header-container">
           <a href="/">
@@ -63,9 +64,7 @@
                 Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
                 сильні сторони.
               </h2>
-              <button class="hero-btn" type="button">
-                Замовити прочитання
-              </button>
+              <button class="hero-btn" type="button">хочу прочитання</button>
             </div>
 
             <div class="hero-img">
@@ -120,7 +119,9 @@
                   </p>
                 </li>
                 <li class="services-item">
-                  <h3 class="services-subtitle">Композит (сумісність партнерів в бізнесі, стосунках)</h3>
+                  <h3 class="services-subtitle">
+                    Композит (сумісність партнерів в бізнесі, стосунках)
+                  </h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Consectetur, reiciendis?
@@ -163,71 +164,136 @@
                 повсякденному житті.
               </p>
 
-              <button class="hero-btn" type="button">
-                Замовити консультацію
-              </button>
+              <button class="hero-btn" type="button">хочу консультацію</button>
             </div>
           </div>
         </section>
         <section id="projects" class="projects">
           <div class="container projects-container">
-            <h2 class="about-subtitle">Мої проекти</h2>
-            <ul>
-              <li>Серія подкастів "Робочий дофамін"</li>
-              <li>Рейв ABC</li>
-              <li>Курс "Жити свій дизайн"</li>
+            <h2 class="services-title">Мої проекти</h2>
+            <ul class="projects-list">
+              <li class="projects-item">
+                <div>
+                  <img
+                    src="./images/dofamin.jpg"
+                    alt="афіша подкасту"
+                    width="320"
+                  />
+                  <h3 class="services-subtitle">
+                    Серія подкастів "Робочий дофамін"
+                  </h3>
+                  <p class="services-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <button type="button" class="hero-btn">
+                    слухати на apple podcasts
+                  </button>
+                  <button type="button" class="hero-btn">
+                    слухати на spotify
+                  </button>
+                </div>
+              </li>
+              <li class="projects-item">
+                <div>
+                  <img
+                    src="./images/rave.jpg"
+                    alt="афіша онлайн курсу"
+                    width="320"
+                  />
+                  <h3 class="services-subtitle">Рейв ABC</h3>
+                  <p class="services-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <button class="hero-btn" type="button">хочу на рейв</button>
+                </div>
+              </li>
+              <li class="projects-item">
+                <div>
+                  <img
+                    src="./images/des.jpg"
+                    alt="афіша онлайн курсу"
+                    width="320"
+                  />
+                  <h3 class="services-subtitle">Курс "Жити свій дизайн"</h3>
+                  <p class="services-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <button type="button" class="hero-btn">хочу на курс</button>
+                </div>
+              </li>
             </ul>
           </div>
         </section>
         <section id="calendar" class="calendar">
           <div class="container">
-            <h2 class="about-subtitle">Розклад майбутніх подій</h2>
-            <ul>
-              <li>
-                <p>подія 1</p>
-                <button class="hero-btn">купити участь</button>
-              </li>
-              <li>
-                <p>подія 2</p>
-                <button class="hero-btn">зареєструватись</button>
-              </li>
-            </ul>
+            <h2 class="services-title">Майбутні події</h2>
+            <div class="calendar-content">
+              <img
+                src="./images/hero-img.jpg"
+                alt="фотографія експерта"
+                width="583"
+              />
+              <ul class="calendar-list">
+                <li>
+                  <h3 class="services-subtitle">Курс "Жити свій дизайн"</h3>
+                  <button class="hero-btn">хочу на курс</button>
+                </li>
+                <li>
+                  <h3 class="services-subtitle">Рейв ABC</h3>
+                  <button class="hero-btn">хочу на рейв</button>
+                </li>
+                <li>
+                  <h3 class="services-subtitle">Підкаст "Робочий Дофамін"</h3>
+                  <button type="button" class="hero-btn">
+                    слухати на apple podcasts
+                  </button>
+                  <button type="button" class="hero-btn">
+                    слухати на spotify
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
         <section id="contacts" class="contacts">
-          <h2>Контакти</h2>
-          <address>
+          <div class="container">
+            <h2 class="services-title">Контакти</h2>
+            <address>
+              <ul>
+                <li>
+                  <a
+                    href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
+                    target="_blank"
+                    rel="no-opener no-referrer no-follow"
+                    >м. Київ, вул. Гоголівська, 34</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:2208513@gmail.com">2208513@gmail.com</a>
+                </li>
+              </ul>
+            </address>
+
             <ul>
               <li>
                 <a
-                  href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
+                  href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
                   target="_blank"
                   rel="no-opener no-referrer no-follow"
-                  >м. Київ, вул. Гоголівська, 34</a
+                  >instagram</a
                 >
               </li>
-              <li><a href="mailto:2208513@gmail.com">2208513@gmail.com</a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/lesia.makarenko"
+                  target="_blank"
+                  rel="no-opener no-referrer no-follow"
+                  >facebook</a
+                >
+              </li>
             </ul>
-          </address>
-          <ul>
-            <li>
-              <a
-                href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
-                target="_blank"
-                rel="no-opener no-referrer no-follow"
-                >instagram</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/lesia.makarenko"
-                target="_blank"
-                rel="no-opener no-referrer no-follow"
-                >facebook</a
-              >
-            </li>
-          </ul>
+          </div>
         </section>
       </main>
 
@@ -240,5 +306,8 @@
         </div>
       </footer>
     </div>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/scroll.js"></script>
   </body>
 </html>
