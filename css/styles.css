@@ -77,6 +77,7 @@ img {
 
 address {
   font-style: normal;
+  color: var(--text-color);
 }
 
 .section {
@@ -329,7 +330,6 @@ address {
 }
 
 .calendar-content {
-
   display: flex;
   gap: 96px;
 }
@@ -394,7 +394,22 @@ address {
   font-size: 14px;
   text-transform: uppercase;
 }
-/* ---------------FOOTER----------------- */
+
+.social-link{
+  padding: 7px;
+}
+
+.social-item .social-link:hover,
+.social-item .social-link:focus {
+  color: var(--bg-color);
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--text-color);
+}
+
+/* ------FOOTER----------------- */
 
 .footer-container {
   display: flex;
