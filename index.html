@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="body-wrapper">
-       <button id="scrollToTopBtn">Вгору</button>
+      <button id="scrollToTopBtn">Вгору</button>
       <header class="header">
         <div class="container header-container">
           <a href="/">
@@ -29,7 +29,7 @@
               class="logo"
               src="./images/logo.png"
               alt="логотип сайту"
-              width="140"
+              width="160"
           /></a>
 
           <div class="nav-wrap">
@@ -42,7 +42,7 @@
                   <a class="nav-link link" href="#services">Послуги</a>
                 </li>
                 <li>
-                  <a class="nav-link link" href="#projects">Проекти</a>
+                  <a class="nav-link link" href="#projects">Проєкти</a>
                 </li>
                 <li>
                   <a class="nav-link link" href="#calendar">Події</a>
@@ -56,7 +56,7 @@
         </div>
       </header>
       <main>
-        <section class="hero">
+        <section class="hero section">
           <div class="container hero-container">
             <div class="hero-text-content">
               <h1 class="hero-title">Леся Макаренко</h1>
@@ -64,21 +64,21 @@
                 Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
                 сильні сторони.
               </h2>
-              <button class="hero-btn" type="button">хочу прочитання</button>
+              <button class="button" type="button">хочу прочитання</button>
             </div>
 
             <div class="hero-img">
               <img
                 src="./images/photo2.jpg"
                 alt="фотографія експерта"
-                width="380"
+                width="360"
               />
             </div>
           </div>
         </section>
-        <section id="about" class="about">
+        <section id="about" class="about section">
           <div class="container about-container">
-            <h2 class="about-title visually-hidden">Про мене</h2>
+            <h2 class="title visually-hidden">Про мене</h2>
 
             <div class="about-text-area">
               <p class="text">Мовою дизайну - я емоційний Генератор 6/2.</p>
@@ -99,58 +99,44 @@
             </div>
           </div>
         </section>
-        <section id="services" class="services">
+        <section id="services" class="services section">
           <div class="container services-container">
             <div class="services-content-top">
-              <h2 class="services-title">Послуги та точки дотику</h2>
+              <h2 class="title">Послуги та точки дотику</h2>
               <ul class="services-list">
                 <li class="services-item">
-                  <h3 class="services-subtitle">Базові прочитання карти</h3>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Repellendus, labore.
-                  </p>
+                  <h3 class="subtitle">Прочитання карти</h3>
+                  <p class="text">Базові та дитячі прочитання карт</p>
+                </li>
+
+                <li class="services-item">
+                  <h3 class="subtitle">Композит</h3>
+                  <p class="text">Cумісність партнерів в бізнесі, стосунках</p>
                 </li>
                 <li class="services-item">
-                  <h3 class="services-subtitle">Дитячі прочитання карти</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Eveniet, in.
-                  </p>
-                </li>
-                <li class="services-item">
-                  <h3 class="services-subtitle">
-                    Композит (сумісність партнерів в бізнесі, стосунках)
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consectetur, reiciendis?
-                  </p>
-                </li>
-                <li class="services-item">
-                  <h3 class="services-subtitle">Призначення</h3>
-                  <p>
+                  <h3 class="subtitle">Призначення</h3>
+                  <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Eligendi, voluptates.
                   </p>
                 </li>
                 <li class="services-item">
-                  <h3 class="services-subtitle">Карʼєрний профіль</h3>
-                  <p>
+                  <h3 class="subtitle">Карʼєрний профіль</h3>
+                  <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam, facilis.
                   </p>
                 </li>
                 <li class="services-item">
-                  <h3 class="services-subtitle">Інженеринг команд</h3>
-                  <p>
+                  <h3 class="subtitle">Інженеринг команд</h3>
+                  <p class="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iusto, quos.
                   </p>
                 </li>
                 <li class="services-item">
-                  <h3 class="services-subtitle">Читання циклів</h3>
-                  <p>
+                  <h3 class="subtitle">Читання циклів</h3>
+                  <p class="text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Ipsam, vero.
                   </p>
@@ -158,111 +144,128 @@
               </ul>
             </div>
             <div class="services-content-bottom">
-              <p class="services-text">
+              <p class="text">
                 Також ми систематично проводимо навчання та різноманітні заходи
                 для знайомства з темою дизайну та застосування цього знання у
                 повсякденному житті.
               </p>
 
-              <button class="hero-btn" type="button">хочу консультацію</button>
+              <button class="button" type="button">хочу прочитання</button>
             </div>
           </div>
         </section>
-        <section id="projects" class="projects">
+
+        <section id="projects" class="projects section">
           <div class="container projects-container">
-            <h2 class="services-title">Мої проекти</h2>
+            <h2 class="title projects-title">Мої проєкти</h2>
             <ul class="projects-list">
               <li class="projects-item">
-                <div>
+                <div class="project-card">
                   <img
+                    class="project-img"
                     src="./images/dofamin.jpg"
                     alt="афіша подкасту"
-                    width="320"
+                    width="360"
+                    height="360"
                   />
-                  <h3 class="services-subtitle">
-                    Серія подкастів "Робочий дофамін"
-                  </h3>
-                  <p class="services-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <h3 class="subtitle">Робочий дофамін</h3>
+                  <p class="text">
+                    Серія подкастів від Лесі Макаренко та Лєни Байдак про те,
+                    чому не існує єдиного шаблону успіху для всіх.
                   </p>
-                  <button type="button" class="hero-btn">
-                    слухати на apple podcasts
-                  </button>
-                  <button type="button" class="hero-btn">
+                  <button type="button" class="button">слухати на apple</button>
+                  <button type="button" class="button">
                     слухати на spotify
                   </button>
                 </div>
               </li>
               <li class="projects-item">
-                <div>
+                <div class="project-card">
                   <img
+                    class="project-img"
                     src="./images/rave.jpg"
                     alt="афіша онлайн курсу"
-                    width="320"
+                    width="360"
+                    height="360"
                   />
-                  <h3 class="services-subtitle">Рейв ABC</h3>
-                  <p class="services-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <h3 class="subtitle">Рейв ABC</h3>
+                  <p class="text">
+                    Заняття для тих, хто вже пройшов першу стадію навчання
+                    Дизайну Людини та готовий рухатися далі.
                   </p>
-                  <button class="hero-btn" type="button">хочу на рейв</button>
+                  <button class="button" type="button">хочу на рейв</button>
                 </div>
               </li>
               <li class="projects-item">
-                <div>
+                <div class="project-card">
                   <img
+                    class="project-img"
                     src="./images/des.jpg"
                     alt="афіша онлайн курсу"
-                    width="320"
+                    width="360"
+                    height="360"
                   />
-                  <h3 class="services-subtitle">Курс "Жити свій дизайн"</h3>
-                  <p class="services-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <h3 class="subtitle">Жити свій дизайн</h3>
+                  <p class="text">
+                    Курс про знайомство зі своїми особливостями, стратегіями
+                    руху по життю, глибоке самопізнання.
                   </p>
-                  <button type="button" class="hero-btn">хочу на курс</button>
+                  <button type="button" class="button">хочу на курс</button>
                 </div>
               </li>
             </ul>
           </div>
         </section>
-        <section id="calendar" class="calendar">
-          <div class="container">
-            <h2 class="services-title">Майбутні події</h2>
+        <section id="calendar" class="calendar section">
+          <div class="container calendar-container">
+            <h2 class="title calendar-title">Майбутні події</h2>
             <div class="calendar-content">
               <img
+                class="calendar-img"
                 src="./images/hero-img.jpg"
                 alt="фотографія експерта"
-                width="583"
+                width="620"
               />
               <ul class="calendar-list">
-                <li>
-                  <h3 class="services-subtitle">Курс "Жити свій дизайн"</h3>
-                  <button class="hero-btn">хочу на курс</button>
+                <li class="calendar-item">
+                  <h3 class="subtitle">Курс "Жити свій дизайн"</h3>
+                  <div class="calendar-bottom">
+                    <p class="text">03 червня</p>
+                    <button class="button">хочу на курс</button>
+                  </div>
                 </li>
-                <li>
-                  <h3 class="services-subtitle">Рейв ABC</h3>
-                  <button class="hero-btn">хочу на рейв</button>
+                <li class="calendar-item">
+                  <h3 class="subtitle">Рейв ABC</h3>
+                  <div class="calendar-bottom">
+                    <p class="text">26 липня</p>
+                    <button class="button">хочу на рейв</button>
+                  </div>
                 </li>
-                <li>
-                  <h3 class="services-subtitle">Підкаст "Робочий Дофамін"</h3>
-                  <button type="button" class="hero-btn">
-                    слухати на apple podcasts
-                  </button>
-                  <button type="button" class="hero-btn">
-                    слухати на spotify
-                  </button>
+                <li class="calendar-item">
+                  <h3 class="subtitle">Підкаст "Робочий Дофамін"</h3>
+                  <div class="calendar-bottom">
+                    <p class="text">08 серпня</p>
+                    <button type="button" class="button">
+                      слухати на apple
+                    </button>
+                    <button type="button" class="button">
+                      слухати на spotify
+                    </button>
+                  </div>
                 </li>
               </ul>
             </div>
           </div>
         </section>
         <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
-        <section id="contacts" class="contacts">
-          <div class="container">
-            <h2 class="services-title">Контакти</h2>
+        <section id="contacts" class="contacts section">
+          <div class="container contacts-container">
+            <h2 class="title">Контакти</h2>
             <address>
               <ul>
                 <li>
                   <a
+                    class="link"
                     href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
                     target="_blank"
                     rel="no-opener no-referrer no-follow"
@@ -270,7 +273,9 @@
                   >
                 </li>
                 <li>
-                  <a href="mailto:2208513@gmail.com">2208513@gmail.com</a>
+                  <a class="link" href="mailto:2208513@gmail.com"
+                    >2208513@gmail.com</a
+                  >
                 </li>
               </ul>
             </address>
@@ -278,6 +283,7 @@
             <ul>
               <li>
                 <a
+                  class="link"
                   href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
                   target="_blank"
                   rel="no-opener no-referrer no-follow"
@@ -286,6 +292,7 @@
               </li>
               <li>
                 <a
+                  class="link"
                   href="https://www.facebook.com/lesia.makarenko"
                   target="_blank"
                   rel="no-opener no-referrer no-follow"
@@ -299,10 +306,10 @@
 
       <footer class="footer">
         <div class="container footer-container">
-          <img src="./images/logo.png" alt="logo" width="210" />
-
           <p class="text">Всі права захищені &copy; HE, 2024</p>
-          <p class="text">Designed and developed with ❤️ by Dari Shpak</p>
+          <img src="./images/logo.png" alt="logo" width="320" />
+
+          <p class="text">Developed with ❤️ by Dari Shpak</p>
         </div>
       </footer>
     </div>
