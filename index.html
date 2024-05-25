@@ -21,7 +21,11 @@
   </head>
   <body>
     <div class="body-wrapper">
-      <button id="scrollToTopBtn">Вгору</button>
+      <button id="scrollToTopBtn">
+        <svg class="scroll-up-icon" width="62" height="62">
+          <use href="./images/icons/icons.svg#icon-arrow "></use>
+        </svg>
+      </button>
       <header class="header">
         <div class="container header-container">
           <a href="/">
@@ -51,8 +55,29 @@
               </li>
             </ul>
           </nav>
+          <ul class="socials">
+            <li class="social-item">
+              <a
+                class="link"
+                href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
+                target="_blank"
+                rel="no-opener no-referrer no-follow"
+                >in</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="link"
+                href="https://www.facebook.com/lesia.makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow"
+                >fb</a
+              >
+            </li>
+          </ul>
         </div>
       </header>
+      <hr class="horizontal-line" />
       <main>
         <section class="hero section">
           <div class="container hero-container">
@@ -62,17 +87,25 @@
                 Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
                 сильні сторони.
               </h2>
-              <button class="button hero-btn" type="button">хочу прочитання</button>
-            </div>
+              <button class="button hero-btn" type="button">
+                хочу прочитання
+              </button>
 
-            <img
-              class="hero-img"
-              src="./images/hero-img.jpg"
-              alt="фотографія експерта"
-              width="320"
-            />
+              <svg class="decorative-icon" width="102" height="90">
+                <use href="./images/icons/icons.svg#icon-pattern2"></use>
+              </svg>
+            </div>
+            <div class="img-wrap">
+              <img
+                class="hero-img"
+                src="./images/hero-img.jpg"
+                alt="фотографія експерта"
+                width="320"
+              />
+            </div>
           </div>
         </section>
+        <hr class="horizontal-line" />
         <section id="about" class="about section">
           <div class="container about-container">
             <h2 class="title visually-hidden">Про мене</h2>
@@ -96,50 +129,91 @@
             </div>
           </div>
         </section>
+        <hr class="horizontal-line" />
         <section id="services" class="services section">
           <div class="container services-container">
             <div class="services-content-top">
               <h2 class="title services-title">Послуги та точки дотику</h2>
               <ul class="services-list">
                 <li class="services-item">
-                  <h3 class="subtitle">Прочитання карти</h3>
-                  <p class="text">Базові та дитячі прочитання карт</p>
+                  <svg class="services-decorative-icon" width="80" height="80">
+                    <use href="./images/icons/icons.svg#icon-pattern3"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">Прочитання карти</h3>
+                    <p class="text">Базові та дитячі прочитання карт</p>
+                  </div>
                 </li>
 
                 <li class="services-item">
-                  <h3 class="subtitle">Композит</h3>
-                  <p class="text">Cумісність партнерів в бізнесі, стосунках</p>
+                  <svg class="services-decorative-icon" width="80" height="80">
+                    <use href="./images/icons/icons.svg#icon-pattern6"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">Композит</h3>
+                    <p class="text">
+                      Cумісність партнерів в бізнесі, стосунках
+                    </p>
+                  </div>
+                </li>
+
+                <li class="services-item">
+                  <svg class="services-decorative-icon" width="80" height="80">
+                    <use href="./images/icons/icons.svg#icon-pattern12"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">Призначення</h3>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eligendi, voluptates.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="services-item">
+                  <svg class="services-decorative-icon" width="80" height="80">
+                    <use href="./images/icons/icons.svg#icon-pattern4"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">
+                      Карʼєрний профіль
+                    </h3>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aperiam, facilis.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="services-item">
+                  <svg class="services-decorative-icon" width="80" height="80">
+                    <use href="./images/icons/icons.svg#icon-pattern10"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">
+                      Інженеринг команд
+                    </h3>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto, quos.
+                    </p>
+                  </div>
                 </li>
                 <li class="services-item">
-                  <h3 class="subtitle">Призначення</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi, voluptates.
-                  </p>
-                </li>
-                <li class="services-item">
-                  <h3 class="subtitle">Карʼєрний профіль</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, facilis.
-                  </p>
-                </li>
-                <li class="services-item">
-                  <h3 class="subtitle">Інженеринг команд</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto, quos.
-                  </p>
-                </li>
-                <li class="services-item">
-                  <h3 class="subtitle">Читання циклів</h3>
-                  <p class="text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Ipsam, vero.
-                  </p>
+                  <svg class="services-decorative-icon" width="80" height="40">
+                    <use href="./images/icons/icons.svg#icon-pattern14"></use>
+                  </svg>
+                  <div class="services-text-area">
+                    <h3 class="subtitle services-subtitle">Читання циклів</h3>
+                    <p class="text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsam, vero.
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>
+
             <div class="services-content-bottom">
               <p class="text">
                 Також ми систематично проводимо навчання та різноманітні заходи
@@ -151,7 +225,7 @@
             </div>
           </div>
         </section>
-
+        <hr class="horizontal-line" />
         <section id="projects" class="projects section">
           <div class="container projects-container">
             <h2 class="title projects-title">Мої проєкти</h2>
@@ -162,7 +236,6 @@
                   src="./images/dofamin.jpg"
                   alt="афіша подкасту"
                   width="360"
-        
                 />
                 <h3 class="subtitle">Робочий дофамін</h3>
                 <p class="text">
@@ -178,7 +251,6 @@
                   src="./images/hero4.jpg"
                   alt="афіша онлайн курсу"
                   width="360"
-        
                 />
                 <h3 class="subtitle">Рейв ABC</h3>
                 <p class="text">
@@ -193,7 +265,6 @@
                   src="./images/des.jpg"
                   alt="афіша онлайн курсу"
                   width="360"
-    
                 />
                 <h3 class="subtitle">Жити свій дизайн</h3>
                 <p class="text">
@@ -205,16 +276,20 @@
             </ul>
           </div>
         </section>
+        <hr class="horizontal-line" />
         <section id="calendar" class="calendar section">
           <div class="container calendar-container">
             <h2 class="title calendar-title">Майбутні події</h2>
+
             <div class="calendar-content">
-              <img
-                class="calendar-img"
-                src="./images/hero3.jpg"
-                alt="фотографія експерта"
-                width="360"
-              />
+              <div class="img-wrap calendar-img-wrap">
+                <img
+                  class="calendar-img"
+                  src="./images/hero3.jpg"
+                  alt="фотографія експерта"
+                  width="360"
+                />
+              </div>
               <ul class="calendar-list">
                 <li class="calendar-item">
                   <h3 class="subtitle">Курс "Жити свій дизайн"</h3>
@@ -223,6 +298,7 @@
                     <button class="button">хочу на курс</button>
                   </div>
                 </li>
+
                 <li class="calendar-item">
                   <h3 class="subtitle">Рейв ABC</h3>
                   <div class="calendar-bottom">
@@ -230,6 +306,7 @@
                     <button class="button">хочу на рейв</button>
                   </div>
                 </li>
+
                 <li class="calendar-item">
                   <h3 class="subtitle">Підкаст "Робочий Дофамін"</h3>
                   <div class="calendar-bottom">
@@ -246,22 +323,25 @@
             </div>
           </div>
         </section>
+        <hr class="horizontal-line" />
         <!-- <section>Хвасти та регалії, досвід, дипломи, фотки</section> -->
         <section id="contacts" class="contacts section">
           <div class="container contacts-container">
-            <h2 class="title">Контакти</h2>
-            <address>
-              <ul>
-                <li>
+            <h2 class="title contacts-title">Контакти</h2>
+
+            <address class="address">
+              <ul class="address-list">
+                <li class="address-item">
                   <a
                     class="link"
                     href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
                     target="_blank"
                     rel="no-opener no-referrer no-follow"
-                    >м. Київ, вул. Гоголівська, 34</a
                   >
+                    м. Київ, вул. Гоголівська, 34
+                  </a>
                 </li>
-                <li>
+                <li class="address-item">
                   <a class="link" href="mailto:2208513@gmail.com"
                     >2208513@gmail.com</a
                   >
@@ -269,28 +349,29 @@
               </ul>
             </address>
 
-            <ul>
-              <li>
+            <ul class="socials">
+              <li class="social-item">
                 <a
                   class="link"
                   href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
                   target="_blank"
                   rel="no-opener no-referrer no-follow"
-                  >instagram</a
+                  >in</a
                 >
               </li>
-              <li>
+              <li class="social-item">
                 <a
                   class="link"
                   href="https://www.facebook.com/lesia.makarenko"
                   target="_blank"
                   rel="no-opener no-referrer no-follow"
-                  >facebook</a
+                  >fb</a
                 >
               </li>
             </ul>
           </div>
         </section>
+        <hr class="horizontal-line" />
       </main>
 
       <footer class="footer">
@@ -298,7 +379,13 @@
           <p class="text">Всі права захищені &copy; HE, 2024</p>
           <img src="./images/logo.png" alt="logo" width="320" />
 
-          <p class="text">Developed with ❤️ by Dari Shpak</p>
+          <p class="text">
+            Developed with
+            <svg class="heart-icon" width="20" height="18">
+              <use href="./images/icons/icons.svg#icon-heart"></use>
+            </svg>
+            by Dari Shpak
+          </p>
         </div>
       </footer>
     </div>
