@@ -82,14 +82,13 @@ address {
 .section {
   padding-top: 64px;
   padding-bottom: 64px;
-  border-bottom: 0.2px solid var(--text-color);
 }
 
 .container {
   padding-left: 48px;
   padding-right: 48px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1391px;
 }
 
@@ -141,18 +140,25 @@ margin-right: auto;
   font-size: 18px;
   line-height: calc(30.6 / 18);
 }
+
+.horizontal-line {
+  border-top: 1px solid var(--text-color); /* Можете змінити колір та товщину */
+  margin: 0px 48px;
+}
 /* -----------------HEADER------------------------ */
 
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border-bottom: 0.2px solid var(--text-color);
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.nav-wrap {
+  margin-left: auto;
 }
 
 .nav-list {
@@ -177,6 +183,9 @@ margin-right: auto;
   text-decoration: underline;
 }
 
+.header .socials {
+  margin-left: 32px;
+}
 /* -----------------HERO------------------------ */
 
 .hero-container {
@@ -207,12 +216,21 @@ margin-right: auto;
 .hero-btn {
   width: 180px;
 }
-.hero-img {
+.img-wrap {
   border-radius: 16px;
   overflow: hidden;
-  height: fit-content;
 
+  width: 360px;
+  height: auto;
   flex-grow: 1;
+}
+
+.img-wrap > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
 }
 /* ________________________ABOUT_______________________ */
 
@@ -230,8 +248,6 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
-
-
 }
 
 .services-title {
@@ -243,7 +259,6 @@ margin-right: auto;
 }
 
 .services-list {
-  
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
@@ -253,10 +268,21 @@ margin-right: auto;
 
 .services-item {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  width: 350px;
-  outline: 1px solid;
+
+  width: 360px;
+}
+
+.services-subtitle {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.services-decorative-icon {
+  margin-right: 8px;
+}
+
+.services-text-area {
+  width: 258px;
 }
 
 .services-content-bottom {
@@ -303,13 +329,14 @@ margin-right: auto;
 }
 
 .calendar-content {
+
   display: flex;
   gap: 96px;
 }
 
-.calendar-img {
-  border-radius: 16px;
+.calendar-img-wrap {
   min-width: 583px;
+  height: auto;
 }
 
 .calendar-list {
@@ -337,6 +364,36 @@ margin-right: auto;
   justify-content: space-between;
   align-items: center;
 }
+
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address-item {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+  font-size: 14px;
+  text-transform: uppercase;
+}
 /* ---------------FOOTER----------------- */
 
 .footer-container {
@@ -347,6 +404,17 @@ margin-right: auto;
   padding-bottom: 12px;
 }
 
+.heart-icon {
+  animation: beat 0.65s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
+
 /* scroll-button */
 
 #scrollToTopBtn {
@@ -354,16 +422,8 @@ margin-right: auto;
   bottom: 60px;
   right: 20px;
   display: none;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  border: solid 0.7px var(--text-color);
-  background-color: var(--text-color);
-  color: var(--bg-color);
-
-  padding: 5px 7px;
-  border-radius: 5px;
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -373,8 +433,6 @@ margin-right: auto;
 
 #scrollToTopBtn:hover,
 #scrollToTopBtn:focus {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-
-  transition: background-color 0.4s;
+  fill: var(--bg-color);
+  stroke: var(--text-color);
 }
