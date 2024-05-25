@@ -17,7 +17,7 @@ body {
 }
 
 .body-wrapper {
-  margin: 8px;
+  margin: 16px;
   outline: 0.5px solid var(--text-color);
 }
 
@@ -88,11 +88,9 @@ address {
 .container {
   padding-left: 48px;
   padding-right: 48px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 1295px;
+margin-left: auto;
+margin-right: auto;
+  max-width: 1391px;
 }
 
 .button {
@@ -116,8 +114,6 @@ address {
 
   padding-top: 5px;
   padding-bottom: 5px;
-
-  margin-bottom: 14px;
 }
 
 .button:hover,
@@ -185,7 +181,7 @@ address {
 
 .hero-container {
   display: flex;
-  justify-content: space-between;
+  gap: 96px;
 }
 
 .hero-text-content {
@@ -208,10 +204,15 @@ address {
   line-height: calc(42 / 28);
 }
 
+.hero-btn {
+  width: 180px;
+}
 .hero-img {
   border-radius: 16px;
   overflow: hidden;
   height: fit-content;
+
+  flex-grow: 1;
 }
 /* ________________________ABOUT_______________________ */
 
@@ -229,17 +230,25 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
+
+
+}
+
+.services-title {
+  max-width: 352px;
 }
 
 .services-content-top {
   display: flex;
-  gap: 48px;
 }
 
 .services-list {
+  
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
+
+  justify-content: end;
 }
 
 .services-item {
@@ -256,6 +265,10 @@ address {
   gap: 48px;
 }
 
+.services-content-bottom .text {
+  text-align: justify;
+}
+
 /* ----------------PROJECTS--------------- */
 .projects-title {
   margin-bottom: 48px;
@@ -264,21 +277,22 @@ address {
 
 .projects-list {
   display: flex;
-  justify-content: center;
+
   gap: 48px;
+  justify-content: space-between;
 }
 
 .project-card {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  width: 380px;
+
+  max-width: 360px;
 }
 
 .project-img {
   border-radius: 16px;
   overflow: hidden;
-  height: 360px;
 }
 
 /* ----------------CALENDAR------------- */
@@ -290,11 +304,12 @@ address {
 
 .calendar-content {
   display: flex;
-  gap: 64px;
+  gap: 96px;
 }
 
 .calendar-img {
   border-radius: 16px;
+  min-width: 583px;
 }
 
 .calendar-list {
@@ -336,7 +351,7 @@ address {
 
 #scrollToTopBtn {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   display: none;
   font-family: inherit;
