@@ -353,6 +353,44 @@ address {
   border-bottom: 0.2px solid var(--text-color);
 }
 
+.podcast-list {
+  display: flex;
+  gap: 8px;
+}
+
+.podcast-button {
+  background-color: var(--bg-color);
+  display: flex;
+
+  text-align: center;
+
+  align-items: center;
+
+  width: 80px;
+  border: 1px solid var(--text-color);
+  border-radius: 6px;
+
+  text-transform: uppercase;
+}
+
+.podcast-link {
+  padding: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.podcast-button:hover,
+.podcast-button:focus,
+.podcast-button:active {
+  background-color: var(--text-color);
+}
+
+.podcast-link:hover,
+.podcast-link:focus,
+.podcast-link:active {
+  color: var(--bg-color);
+}
+
 .calendar-bottom {
   display: flex;
   justify-content: space-between;
@@ -395,7 +433,7 @@ address {
   text-transform: uppercase;
 }
 
-.social-link{
+.social-link {
   padding: 7px;
 }
 
@@ -420,8 +458,7 @@ address {
 }
 
 .heart-icon {
-
-  animation: beat 0.70s infinite alternate;
+  animation: beat 0.7s infinite alternate;
   transform-origin: center;
 }
 
@@ -453,12 +490,31 @@ address {
   stroke: var(--text-color);
 }
 
-
 .modal-close {
   border: none;
   background-color: transparent;
 }
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale (0);
+/* 
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #5b6988;
+  background-color: rgba(91, 105, 136, 0.9);
 }
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid transparent;
+  width: 50%;
+  height: 50%;
+} */
