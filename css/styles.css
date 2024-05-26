@@ -420,13 +420,14 @@ address {
 }
 
 .heart-icon {
-  animation: beat 0.65s infinite alternate;
+
+  animation: beat 0.70s infinite alternate;
   transform-origin: center;
 }
 
 @keyframes beat {
   to {
-    transform: scale(1.4);
+    transform: scale(2.4);
   }
 }
 
@@ -435,7 +436,7 @@ address {
 #scrollToTopBtn {
   position: fixed;
   bottom: 60px;
-  right: 20px;
+  right: 48px;
   display: none;
   border: none;
   background-color: transparent;
@@ -450,4 +451,14 @@ address {
 #scrollToTopBtn:focus {
   fill: var(--bg-color);
   stroke: var(--text-color);
+}
+
+
+.modal-close {
+  border: none;
+  background-color: transparent;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale (0);
 }
