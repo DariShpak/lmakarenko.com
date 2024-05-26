@@ -143,8 +143,22 @@ address {
 }
 
 .horizontal-line {
-  border-top: 1px solid var(--text-color); /* Можете змінити колір та товщину */
-  margin: 0px 48px;
+margin-left: auto;
+margin-right: auto;
+
+  height: 1px;
+  width: 96%;
+
+  background-color: var(--text-color);
+
+  /* perspective-origin: 115.5px 0.5px;
+  transform-origin: 115.5px 0.5px; */
+}
+
+.vertical-line{
+  height: 100%;
+  width: 1px;
+  background-color: var(--text-color);
 }
 /* -----------------HEADER------------------------ */
 
@@ -350,7 +364,7 @@ address {
   flex-direction: column;
   gap: 16px;
   min-width: 480px;
-  border-bottom: 0.2px solid var(--text-color);
+
 }
 
 .podcast-list {
@@ -518,3 +532,5 @@ address {
   width: 50%;
   height: 50%;
 } */
+
+
