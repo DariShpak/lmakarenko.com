@@ -412,7 +412,6 @@ address {
 
 .podcast-list {
   display: flex;
-
   gap: 4px;
 }
 
@@ -450,10 +449,10 @@ address {
   color: var(--bg-color);
 }
 
-.calendar-bottom {
+/* .calendar-bottom {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* ---------------CONTACTS-------------- */
 .contacts-container {
