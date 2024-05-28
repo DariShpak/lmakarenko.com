@@ -283,6 +283,7 @@ address {
   overflow: hidden;
 
   max-width: 320px;
+  max-height: 320px;
   /* height: auto;
   flex-grow: 1; */
 }
