@@ -607,10 +607,11 @@ address {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  z-index: 1000;
 }
 
 #scrollToTopBtn.show {
-  display: block;
+  display: flex;
 }
 
 #scrollToTopBtn:hover,
