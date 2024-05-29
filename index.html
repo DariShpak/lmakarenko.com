@@ -79,45 +79,56 @@
               >
             </li>
           </ul> -->
+
           <!-- mob-menu -->
-          <button class="mob-menu-btn" type="button">
+          <button class="mob-menu-btn" type="button" data-menu-open>
             <svg class="mob-menu-open-icon" width="32" height="32">
               <use href="./images/icons/icons.svg#icon-menu"></use>
             </svg>
           </button>
         </div>
 
-            <div class="mob-menu is-hidden visually-hidden">
+        <div class="mob-menu is-hidden" data-menu>
           <div class="container">
             <div class="mob-menu-wrap">
-              <button type="button" class="mob-menu-btn">
-                <svg class="mob-menu-close-icon" width="10" height="10">
-                  <use href="./images/icons/icons.svg#icon-close"></use>
-                </svg>
-              </button>
+              <div class="mob-menu-top">
+                <a href="/">
+                  <img
+                    class="logo"
+                    src="./images/logo.png"
+                    alt="логотип сайту"
+                    width="160"
+                /></a>
+                <button type="button" class="mob-menu-close" data-menu-close>
+                  <svg class="mob-menu-close-icon" width="32" height="32">
+                    <use href="./images/icons/icons.svg#icon-close"></use>
+                  </svg>
+                </button>
+              </div>
+
               <nav class="mob-menu-nav">
                 <ul class="mob-menu-nav-list list">
-                  <li>
+                  <li class="mob-menu-item">
                     <a class="mob-menu-nav-link link" href="#about">Про мене</a>
                   </li>
-                 <div class="horizontal-line"></div>
-                  <li>
+
+                  <li class="mob-menu-item">
                     <a class="mob-menu-nav-link link" href="#services"
                       >Послуги</a
                     >
                   </li>
-                    <div class="horizontal-line"></div>
-                  <li>
+
+                  <li class="mob-menu-item">
                     <a class="mob-menu-nav-link link" href="#projects"
                       >Проєкти</a
                     >
                   </li>
-                    <div class="horizontal-line"></div>
-                  <li>
+
+                  <li class="mob-menu-item">
                     <a class="mob-menu-nav-link link" href="#calendar">Події</a>
                   </li>
-                    <div class="horizontal-line"></div>
-                  <li>
+
+                  <li class="mob-menu-item">
                     <a class="mob-menu-nav-link link" href="#contacts"
                       >Контакти</a
                     >
@@ -468,9 +479,18 @@
           </p>
         </div>
       </footer>
+      <div class="backdrop">
+        <div class="modal">
+          <button class="modal-close" type="button">
+            <svg class="mob-menu-close-icon" width="32" height="32">
+              <use href="./images/icons/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
-    <!-- <script src="./js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
     <script src="./js/scroll.js"></script>
   </body>
 </html>

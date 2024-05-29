@@ -157,7 +157,7 @@ address {
   margin-right: auto;
 
   height: 1px;
-  width: 96%;
+  width: 92%;
 
   background-color: var(--text-color);
 
@@ -169,6 +169,10 @@ address {
   height: 100%;
   width: 1px;
   background-color: var(--text-color);
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 /* -----------------HEADER------------------------ */
 
@@ -213,15 +217,65 @@ address {
 }
 
 .mob-menu-btn {
+  position: absolute;
+  top: 44px;
+  right: 24px;
+  display: flex;
+
+  border: none;
+  background-color: transparent;
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 12;
+  left: 12;
+
+  background-color: var(--bg-color);
+}
+
+.mob-menu .container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 24px;
+
+  border: 1px solid var(--text-color);
+}
+
+.mob-menu-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.mob-menu-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-left: auto;
+  margin-bottom: 16px;
+
+  width: 32px;
+  height: 32px;
+
   border: none;
   background-color: transparent;
 }
 
 .mob-menu-nav-list {
+  padding: 24px;
+
   display: flex;
   flex-direction: column;
-  gap: 24px;
 
   color: var(--text-color);
   font-size: 15px;
@@ -229,12 +283,27 @@ address {
   letter-spacing: 1px;
   font-weight: 300;
   text-transform: uppercase;
+
+  border: 1px solid var(--text-color);
+
+  margin-bottom: 24px;
 }
 
-.mob-menu-nav-link {
+.mob-menu-item {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.mob-menu-item:not(:last-child) {
+  border-bottom: 1px solid var(--text-color);
+}
+
+
+
+/* .mob-menu-nav-link {
   padding-top: 24px;
   padding-bottom: 24px;
-}
+} */
 
 /* -----------------HERO------------------------ */
 
@@ -584,3 +653,6 @@ address {
   width: 50%;
   height: 50%;
 } */
+
+.backdrop {
+}
