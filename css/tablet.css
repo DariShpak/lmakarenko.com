@@ -57,10 +57,9 @@
     min-width: 320px;
   }
 
-  .services-subtitle{
-font-size: 22px;
+  .services-subtitle {
+    font-size: 22px;
   }
-
 
   .projects-title {
     font-size: 36px;
@@ -68,27 +67,57 @@ font-size: 22px;
   }
 
   .projects-list {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
 
-.project-card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+  .project-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 
-  width: 360px;
-}
+    width: 360px;
+  }
 
-.calendar-title {
-      font-size: 36px;
+  .calendar-title {
+    font-size: 36px;
     margin-bottom: 48px;
-}
+  }
 
-.calendar-content {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
+  .calendar-content {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .calendar-item {
+    min-width: 320px;
+    border-bottom: 1px solid var(--text-color);
+  }
+
+  .calendar-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+  }
 }
