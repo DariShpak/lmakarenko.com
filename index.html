@@ -149,7 +149,7 @@
                 Сертифікований аналітик з Хьюман Дизайн. Підсилюю ваші природні
                 сильні сторони.
               </h2>
-              <button class="button hero-btn" type="button">
+              <button class="button hero-btn" type="button" data-modal-open>
                 хочу прочитання
               </button>
 
@@ -295,7 +295,9 @@
                 повсякденному житті.
               </p>
 
-              <button class="button" type="button">хочу прочитання</button>
+              <button class="button" type="button" data-modal-open >
+                хочу прочитання
+              </button>
             </div>
           </div>
         </section>
@@ -316,7 +318,7 @@
                   Серія подкастів від Лесі Макаренко та Лєни Байдак про те, чому
                   не існує єдиного шаблону успіху для всіх.
                 </p>
-                <!-- <button type="button" class="button">слухати на apple</button>
+                <!-- <button type="button" class="button" data-modal-open>слухати на apple</button>
                 <button type="button" class="button">слухати на spotify</button> -->
               </li>
               <li class="project-card">
@@ -331,7 +333,7 @@
                   Заняття для тих, хто вже пройшов першу стадію навчання Дизайну
                   Людини та готовий рухатися далі.
                 </p>
-                <!-- <button class="button" type="button">хочу на рейв</button> -->
+                <!-- <button class="button" type="button" data-modal-open>хочу на рейв</button> -->
               </li>
               <li class="project-card">
                 <img
@@ -345,7 +347,7 @@
                   Курс про знайомство зі своїми особливостями, стратегіями руху
                   по життю, глибоке самопізнання.
                 </p>
-                <!-- <button type="button" class="button">хочу на курс</button> -->
+                <!-- <button type="button" class="button" data-modal-open>хочу на курс</button> -->
               </li>
             </ul>
           </div>
@@ -369,7 +371,9 @@
                   <h3 class="subtitle">Курс "Жити свій дизайн"</h3>
                   <div class="calendar-bottom">
                     <p class="text">03 червня</p>
-                    <button class="button">хочу на курс</button>
+                    <button type="button" class="button" data-modal-open>
+                      хочу на курс
+                    </button>
                   </div>
                   <div class="horizontal-line"></div>
                 </li>
@@ -378,7 +382,9 @@
                   <h3 class="subtitle">Рейв ABC</h3>
                   <div class="calendar-bottom">
                     <p class="text">26 липня</p>
-                    <button class="button">хочу на рейв</button>
+                    <button type="button" class="button" data-modal-open>
+                      хочу на рейв
+                    </button>
                   </div>
                   <div class="horizontal-line"></div>
                 </li>
@@ -479,9 +485,9 @@
           </p>
         </div>
       </footer>
-      <div class="backdrop">
+      <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="modal-close" type="button">
+          <button class="mob-menu-close" type="button" data-modal-close>
             <svg class="mob-menu-close-icon" width="32" height="32">
               <use href="./images/icons/icons.svg#icon-close"></use>
             </svg>
