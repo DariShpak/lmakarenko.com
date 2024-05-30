@@ -55,4 +55,13 @@
     display: flex;
     margin-left: 32px;
   }
+
+  .img-wrap {
+    max-width: 440px;
+    max-height: 440px;
+  }
+
+  .project-img-wrap {
+    max-height: 270px;
+  }
 }

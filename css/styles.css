@@ -91,10 +91,8 @@ address {
   padding-left: 24px;
   padding-right: 24px;
 
-  max-width:375px;
+  max-width: 375px;
 }
-
-
 
 .button {
   display: flex;
@@ -216,7 +214,7 @@ address {
 }
 
 .mob-menu-btn {
-padding: 0;
+  padding: 0;
   display: flex;
   margin-left: auto;
   border: none;
@@ -456,15 +454,16 @@ padding: 0;
 
 .calendar-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 16px;
 }
 
 .calendar-item {
+  padding-bottom: 12px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 320px;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .podcast-list {
@@ -514,7 +513,7 @@ padding: 0;
 /* ---------------CONTACTS-------------- */
 .contacts-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 
   gap: 24px;
 }
@@ -569,19 +568,18 @@ padding: 0;
   padding-top: 24px;
   padding-bottom: 12px;
 }
-
 .footer-container {
-  /* display: flex;
-  align-items: end;
-  justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 12px; */
-
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
 
   gap: 12px;
+}
+
+.footer-logo {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-credits {

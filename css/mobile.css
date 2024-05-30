@@ -1,26 +1,27 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px){
   .container {
-    max-width: 705px;
+    max-width: 767px;
   }
+
 
   .section {
     padding-top: 48px;
     padding-bottom: 48px;
   }
 
-.hero-container {
+  .hero-container {
+    justify-content: space-between;
+    gap: 48px;
+  }
 
- justify-content: space-between;
- gap: 48px;
-}
+  .hero-title {
+    font-size: 48px;
+  }
 
-.hero-title {
-  font-size: 48px;
-}
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 
-.footer {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 }

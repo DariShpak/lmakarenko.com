@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1024px;
+    max-width: 1023px;
   }
 
   .section {
@@ -29,6 +29,14 @@
   }
 
   /* hero */
+
+  .img-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+
+    max-width: 340px;
+    max-height: 340px;
+  }
 
   .services-container {
     display: flex;
@@ -74,10 +82,12 @@
 
   .project-card {
     display: flex;
-    flex-wrap: wrap;
     gap: 16px;
 
-    width: 360px;
+  }
+
+  .project-img-wrap {
+    max-height: 210px;
   }
 
   .calendar-title {
@@ -93,7 +103,6 @@
 
   .calendar-item {
     min-width: 320px;
-    border-bottom: 1px solid var(--text-color);
   }
 
   .calendar-bottom {
@@ -103,21 +112,18 @@
 
   .contacts-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
 
     justify-content: space-between;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-
-    text-align: center;
   }
 
   .footer-logo {
     margin-right: auto;
     margin-left: auto;
     width: 220px;
+  }
+
+  .footer-credits {
+    font-size: 16px;
   }
 }
