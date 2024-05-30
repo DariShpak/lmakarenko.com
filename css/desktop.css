@@ -60,8 +60,79 @@
     max-width: 440px;
     max-height: 440px;
   }
+    .services-content-bottom {
+  flex-direction: column;
+  }
 
   .project-img-wrap {
     max-height: 270px;
+  }
+
+  .hero-title {
+    font-size: 64px;
+  }
+
+  .hero-subtitle {
+    font-size: 22px;
+  }
+
+  .calendar-content {
+    gap: 96px;
+  }
+
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-credits {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-text-content {
+    min-width: 600px;
+  }
+  .hero-title {
+    font-size: 96px;
+  }
+
+  .hero-subtitle {
+    font-size: 32px;
+  }
+
+  .hero-img-wrap {
+    max-width: 640px;
+    max-height: 640px;
+  }
+
+  .services-list {
+    width: 798px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+
+
+
+  .projects-list {
+    justify-content: center;
+    gap: 96px;
+  }
+
+  .project-card {
+    max-width: 380px;
+  }
+
+  .calendar-img-wrap {
+    max-width: 640px;
+    max-height: 640px;
+  }
+
+  .calendar-item {
+    min-width: 600px;
   }
 }

@@ -151,7 +151,7 @@ address {
   margin-right: auto;
 
   height: 1px;
-  width: 92%;
+  width: 96%;
 
   background-color: var(--text-color);
 
@@ -390,7 +390,7 @@ address {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 300px;
+
 
   border-bottom: 1px solid var(--text-color);
 }
