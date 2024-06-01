@@ -509,7 +509,68 @@ address {
   display: flex;
   justify-content: space-between;
 } */
+/* .reviews-title {
+  margin-bottom: 24px;
+}
 
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.review-item {
+padding: 12px;
+  border-bottom: 1px solid var(--text-color);
+
+} */
+.reviews-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.reviews-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.reviews-list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.review-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-button {
+  left: 10px;
+}
+
+.right-button {
+  right: 10px;
+}
 /* ---------------CONTACTS-------------- */
 .contacts-container {
   display: flex;
