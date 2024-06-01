@@ -509,7 +509,7 @@ address {
   display: flex;
   justify-content: space-between;
 } */
-/* .reviews-title {
+.reviews-title {
   margin-bottom: 24px;
 }
 
@@ -517,58 +517,27 @@ address {
   display: flex;
   flex-direction: column;
   gap: 24px;
+
 }
 
 .review-item {
 padding: 12px;
   border-bottom: 1px solid var(--text-color);
 
-} */
-.reviews-section {
-  position: relative;
-  overflow: hidden;
-}
-
-.reviews-container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.reviews-list {
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  flex-direction: column;
+
+  justify-content: center;
+
 }
 
-.review-item {
-  min-width: 100%;
+.decor-icon {
+  margin-left: auto;
+  margin-right: auto;
 
-  padding: 20px;
+  margin-bottom: 24px;
 }
 
-.nav-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background:transparent;
-
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.left-button {
-  left: 10px;
-}
-
-.right-button {
-  right: 10px;
-}
 /* ---------------CONTACTS-------------- */
 .contacts-container {
   display: flex;
