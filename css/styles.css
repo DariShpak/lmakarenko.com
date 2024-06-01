@@ -546,18 +546,16 @@ padding: 12px;
 
 .review-item {
   min-width: 100%;
-  box-sizing: border-box;
+
   padding: 20px;
-  background: #f0f0f0;
-  text-align: center;
 }
 
 .nav-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background:transparent;
+
   border: none;
   padding: 10px;
   cursor: pointer;
