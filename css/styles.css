@@ -505,22 +505,18 @@ address {
   color: var(--bg-color);
 }
 
-/* .calendar-bottom {
-  display: flex;
-  justify-content: space-between;
-} */
-.reviews-title {
+.testimonials-title {
   margin-bottom: 24px;
 }
 
-.reviews-list {
+.testimonials-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
 
 }
 
-.review-item {
+.testimonials-item {
 padding: 12px;
   border-bottom: 1px solid var(--text-color);
 
