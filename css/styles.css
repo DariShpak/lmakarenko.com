@@ -686,8 +686,32 @@ padding: 12px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 320px;
+  min-width: 320px;
   height: auto;
-  border: 1px solid var(--text-color);
+
   padding: 24px;
+
+
+}
+
+.modal-title{
+  font-size: 26px;
+  margin-bottom: 48px;
+}
+
+.form-input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+
+padding: 24px;
+}
+
+.form-input:hover,
+.form-input:focus {
+  outline: none;
+}
+
+.form-btn{
+  margin-top: 36px;
 }
