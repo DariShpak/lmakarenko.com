@@ -518,7 +518,9 @@ address {
 
 .testimonials-item {
 padding: 12px;
-  border-bottom: 1px solid var(--text-color);
+max-width: 360px;
+  border: 1px solid var(--text-color);
+  border-radius: 16px;
 
   display: flex;
   flex-direction: column;
