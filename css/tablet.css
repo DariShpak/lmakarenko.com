@@ -109,6 +109,15 @@
     justify-content: space-between;
   }
 
+
+  .testimonials-list{
+    gap: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+  }
+
   .contacts-container {
     display: flex;
     flex-direction: row;
