@@ -274,8 +274,9 @@ address {
 }
 
 .mob-menu-nav-list {
-  padding: 24px;
-
+  padding-left: 24px;
+  padding-right: 24px;
+  
   display: flex;
   flex-direction: column;
 
@@ -368,6 +369,9 @@ address {
 
   text-align: justify;
 }
+.about .about-hd-btn {
+  width: 160px;
+}
 
 /* ----------------------SERVICES-------------------*/
 
@@ -379,6 +383,7 @@ address {
 
 .services-title {
   margin-bottom: 24px;
+
 }
 
 .services-content-top {
@@ -722,4 +727,14 @@ padding: 24px;
 
 .form-btn{
   margin-top: 36px;
+}
+
+.about-hd-section .title {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.about-hd-section .text {
+  text-align: justify;
+  margin-bottom: 24px;
 }
