@@ -234,10 +234,10 @@ address {
 
 .mob-menu {
   position: fixed;
-  width: 90%;
+  width: 88%;
   height:100%;
   top: 109;
-  left: 16;
+  left: 20;
 
 
   background-color: var(--bg-color);
