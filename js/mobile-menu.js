@@ -49,10 +49,10 @@ function toggleMenu() {
   if (menu.classList.contains('open')) {
     burgerIcon.style.display = 'none';
     crossIcon.style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    document.body.classList.add('lock-scroll'); 
   } else {
     burgerIcon.style.display = 'block';
     crossIcon.style.display = 'none';
-    document.body.style.overflow = 'visible';
+    document.body.classList.remove('lock-scroll');
   }
 }
