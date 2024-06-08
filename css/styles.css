@@ -232,12 +232,13 @@ address {
   transform: translateX(0);
 }
 
+
 .mob-menu {
   position: fixed;
   width: 88%;
   height:100%;
   top: 109;
-  left: 20;
+  left:5%;
 
 
   background-color: var(--bg-color);
