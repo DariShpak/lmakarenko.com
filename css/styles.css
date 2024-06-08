@@ -235,7 +235,7 @@ address {
 .mob-menu {
   position: fixed;
   width: 85%;
-  height: 85%;
+  height:100%;
   top: 109;
   left: 24;
 
@@ -291,19 +291,16 @@ address {
   margin-bottom: 24px;
 }
 
-.mob-menu-item {
-  padding-bottom: 24px;
-  padding-top: 24px;
-}
 
 .mob-menu-item:not(:last-child) {
   border-bottom: 1px solid var(--text-color);
 }
 
-/* .mob-menu-nav-link {
-  padding-top: 24px;
+.mob-menu-nav-link {
+  display: block;
   padding-bottom: 24px;
-} */
+  padding-top: 24px;
+}
 
 /* -----------------HERO------------------------ */
 
