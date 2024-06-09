@@ -526,6 +526,7 @@ address {
   flex-direction: column;
   gap: 24px;
 
+  margin-bottom: 48px;
 }
 
 .testimonials-item {
