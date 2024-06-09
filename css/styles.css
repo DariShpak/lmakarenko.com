@@ -379,11 +379,11 @@ address {
 .services-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
 }
 
 .services-title {
-  margin-bottom: 24px;
+text-align: center;
+margin-bottom: 24px;
 
 }
 
@@ -406,9 +406,15 @@ address {
 
   border-bottom: 1px solid var(--text-color);
 }
+.services-list-subtitle {
+  text-align: start;
+  font-size: 18px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
 
 .services-subtitle {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .services-decorative-icon {
@@ -417,6 +423,7 @@ address {
 }
 
 .services-content-bottom {
+  margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px;
@@ -770,5 +777,5 @@ padding: 24px;
 .mob-menu-close-icon {
   fill: var(--text-color);
 
-  
+
 }
