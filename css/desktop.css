@@ -136,6 +136,10 @@
     min-width: 600px;
   }
 
+  .testimonials-item{
+    width: 420px;
+  }
+
   .modal-title{
     font-size: 62px;
     width: 800px;}

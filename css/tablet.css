@@ -44,17 +44,18 @@
 
   .services-container {
     display: flex;
+    flex-direction: column;
+    gap: 96px;
   }
 
-  .services-title {
-    font-size: 36px;
-    margin-bottom: 0;
-    min-width: 304px;
+  .individuals-services{
+    display: flex;
+justify-content: space-between;
   }
 
-  .services-content-top {
-    flex-direction: row;
-    gap: 48px;
+  .business-services{
+    display: flex;
+    justify-content: space-between;
   }
 
   .services-list {
@@ -66,8 +67,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 320px;
+    width: 360px;
   }
+
+  .services-content-bottom {
+    margin-top: 0px;}
 
   .services-subtitle {
     font-size: 22px;
@@ -120,6 +124,10 @@
     flex-wrap: wrap;
 
     justify-content: space-evenly;
+  }
+
+  .testimonials-item {
+    width: 280px;
   }
 
   .contacts-container {
