@@ -138,4 +138,26 @@
   .footer-credits {
     font-size: 16px;
   }
+
+  .modal-content{
+    display: flex;
+    gap: 48px;
+  }
+
+  .modal-content-top{
+    display: flex;
+    flex-direction: column;
+    gap: 48px ;
+  }
+
+.modal-title{
+  font-size: 36px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
 }
