@@ -51,12 +51,15 @@
   .individuals-services{
     display: flex;
 justify-content: space-between;
+
   }
 
   .business-services{
     display: flex;
     justify-content: space-between;
   }
+
+
 
   .services-list {
     display: flex;
@@ -83,18 +86,21 @@ justify-content: space-between;
   }
 
   .projects-list {
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 48px;
   }
 
   .project-card {
     display: flex;
     gap: 16px;
+    max-width: 310px;
   }
 
   .project-img-wrap {
-    max-height: 210px;
+    max-height: 310px;
   }
 
   .calendar-title {
@@ -106,6 +112,12 @@ justify-content: space-between;
     display: flex;
     flex-direction: row;
     gap: 48px;
+  }
+
+  .calendar-img-wrap {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 20px; 
   }
 
   .calendar-item {
