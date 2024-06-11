@@ -736,7 +736,7 @@ left: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 96%;
+  height: 92%;
 width: 92%;
   border: 1px solid var(--text-color);
 }
@@ -751,12 +751,11 @@ width: 92%;
 
 .modal-title{
   font-size: 20px;
-  margin-top: 24px;
   margin-bottom: 24px;
 }
 
 .contact-form{
-margin-top: 24px;
+margin-top: 16px;
 }
 
 .form-input{
@@ -766,7 +765,7 @@ margin-top: 24px;
 font-size: 14px;
 font-family: "Open Sans", sans-serif;
 text-transform: capitalize;
-padding: 24px;
+padding: 16px;
 }
 
 .form-input:hover,
