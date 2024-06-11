@@ -163,12 +163,22 @@ address {
   margin-right: auto;
 
   height: 1px;
-  width: 96%;
+  width: 0;
 
   background-color: var(--text-color);
+  animation: drawLine 2s forwards;
+  /* transform-origin: left; */
+  perspective-origin: 115.5px 0.5px;
+  transform-origin: 115.5px 0.5px;
+}
 
-  /* perspective-origin: 115.5px 0.5px;
-  transform-origin: 115.5px 0.5px; */
+@keyframes drawLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 96%;
+  }
 }
 
 .vertical-line {
