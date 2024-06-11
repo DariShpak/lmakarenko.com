@@ -159,26 +159,20 @@ address {
 }
 
 .horizontal-line {
-  margin-left: auto;
-  margin-right: auto;
+margin-left:2%;
 
   height: 1px;
   width: 0;
 
   background-color: var(--text-color);
-  animation: drawLine 2s forwards;
-  /* transform-origin: left; */
-  perspective-origin: 115.5px 0.5px;
-  transform-origin: 115.5px 0.5px;
+  transition: width 1s ease-out; 
+  transform-origin: left; 
+
 }
 
-@keyframes drawLine {
-  from {
-    width: 0;
-  }
-  to {
-    width: 96%;
-  }
+.horizontal-line.visible {
+  width: 96%;
+
 }
 
 .vertical-line {
@@ -356,6 +350,11 @@ address {
   margin-bottom: 24px;
 }
 
+.hero .about-hd-btn {
+  margin-bottom: 24px;
+  width: 180px;
+}
+
 .decorative-icon {
   width: 60px;
   height: 60px;
@@ -387,9 +386,7 @@ address {
 
   text-align: justify;
 }
-.about .about-hd-btn {
-  width: 160px;
-}
+
 
 /* ----------------------SERVICES-------------------*/
 
