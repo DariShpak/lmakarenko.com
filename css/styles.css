@@ -285,6 +285,10 @@ margin-left:2%;
   background-color: transparent;
 }
 
+.mob-menu-close-icon {
+  fill: var(--text-color);
+}
+
 .mob-menu-nav-list {
   padding-left: 24px;
   padding-right: 24px;
