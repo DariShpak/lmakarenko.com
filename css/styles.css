@@ -809,3 +809,7 @@ text-decoration: none;
 .error-404{
   min-height: 450px;
 }
+
+.dari-link:hover {
+  text-decoration: underline;
+}
