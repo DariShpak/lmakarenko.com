@@ -393,9 +393,14 @@ margin-left:2%;
 
 /* ----------------------SERVICES-------------------*/
 
+
 .services-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.price-wrap{
+  margin-bottom: 24px;
 }
 
 
@@ -448,6 +453,11 @@ margin-top: 24px;
 
 .services-content-bottom .text {
   text-align: justify;
+}
+
+.main-section-title {
+  text-align: start;
+  font-size:20px;
 }
 
 /* ----------------PROJECTS--------------- */
