@@ -489,26 +489,26 @@ margin-top: 24px;
   max-height: 220px;
 }
 
-/* ----------------CALENDAR------------- */
+/* ----------------COURSES------------- */
 
-.calendar-title {
+.courses-title {
   margin-bottom: 24px;
   text-align: center;
 }
 
-.calendar-content {
+.courses-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.calendar-list {
+.courses-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.calendar-item {
+.courses-item {
   padding-bottom: 12px;
   display: flex;
   flex-direction: column;
@@ -516,7 +516,7 @@ margin-top: 24px;
   border-bottom: 1px solid var(--text-color);
 }
 
-.calendar-bottom {
+.courses-bottom {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -702,30 +702,8 @@ height: auto;
   border: none;
   background-color: transparent;
 }
-/* 
-.overlay {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #5b6988;
-  background-color: rgba(91, 105, 136, 0.9);
-}
 
-.modal-window {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: transparent;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid transparent;
-  width: 50%;
-  height: 50%;
-} */
+
 
 .modal-backdrop {
   position: fixed;
@@ -822,4 +800,398 @@ text-decoration: none;
 
 .dari-link:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 375px){
+  .container {
+    max-width: 767px;
+  }
+
+  .mob-menu {
+    width: 90%;
+    left: 5%;
+  }
+
+
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .hero-container {
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .main-section-title {
+    text-align: start;
+    font-size:24px;
+  }
+
+  .project-img-wrap {
+    max-height: 320px;
+  }
+
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1023px;
+  }
+
+  .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+
+  .header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .mob-menu-btn {
+    margin-left: 32px;
+  }
+
+  .header .socials {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .mob-menu {
+    top: 120px;
+    width: 92%;
+    left: 20;
+  }
+  /* hero */
+
+  .img-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+  }
+
+  .individuals-services{
+    display: flex;
+justify-content: space-between;
+
+  }
+
+  .business-services{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services-list {
+    display: flex;
+    gap: 48px;
+  }
+
+  .services-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 360px;
+  }
+
+  .services-content-bottom {
+    margin-top: 0px;}
+
+  .services-subtitle {
+    font-size: 22px;
+  }
+
+  .projects-title {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+
+  .projects-list {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+
+  .project-card {
+    display: flex;
+    gap: 16px;
+    max-width: 310px;
+  }
+
+  .project-img-wrap {
+    max-height: 310px;
+  }
+
+  .courses-title {
+    font-size: 36px;
+    margin-bottom: 48px;
+  }
+
+  .courses-content {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+
+  .courses-img-wrap {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 20px; 
+  }
+
+  .courses-item {
+    min-width: 320px;
+  }
+
+  .courses-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .testimonials-list{
+    gap: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+  }
+
+  .testimonials-item {
+    width: 280px;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+  }
+
+  .footer-credits {
+    font-size: 16px;
+  }
+
+  .modal-content{
+    display: flex;
+    gap: 48px;
+  }
+
+  .modal-content-top{
+    display: flex;
+    flex-direction: column;
+    gap: 48px ;
+  }
+
+.modal-title{
+  font-size: 36px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input{
+  padding: 24px;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 48px;
+    padding-right: 48px;
+
+    max-width: 1391px;
+  }
+
+  .header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .mob-menu-btn {
+    display: none;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-wrap {
+    margin-left: auto;
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+
+    gap: 18px;
+
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: calc(18 / 15);
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    text-decoration: underline;
+  }
+
+  .header .socials {
+    display: flex;
+    margin-left: 24px;
+  }
+
+  .img-wrap {
+    max-width: 440px;
+    max-height: 440px;
+  }
+    .services-content-bottom {
+  flex-direction: column;
+  }
+
+  .project-img-wrap {
+    width: 460px;
+    height: 460px;
+  }
+
+  .projects-list{
+    gap:96px;
+  }
+
+  .project-card {
+    max-width: 360px;
+  }
+
+  .hero-title {
+    font-size: 64px;
+  }
+
+  .hero-subtitle {
+    font-size: 22px;
+  }
+
+  .courses-content {
+    gap: 96px;
+  }
+
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-credits {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1391px) {
+  .hero-text-content {
+    min-width: 600px;
+  }
+  .hero-title {
+    font-size: 96px;
+  }
+
+  .hero-subtitle {
+    font-size: 32px;
+  }
+
+  .hero-img-wrap {
+    max-width: 640px;
+    max-height: 640px;
+  }
+
+  .services-list {
+    width: 798px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+
+
+
+  .projects-list {
+    justify-content: center;
+  }
+
+  .project-card {
+    max-width: 460px;
+  }
+
+  .courses-img-wrap {
+    max-width: 640px;
+    max-height: 640px;
+  }
+
+  .courses-item {
+    min-width: 600px;
+  }
+
+  .testimonials-item{
+    width: 420px;
+  }
+
+  .modal-title{
+    font-size: 62px;
+    width: 800px;}
+
+    .contact-form{
+min-width: 360px;
+gap: 24px;
+
+    }
+
+    .form-input{
+      font-size: 22px;
+    }
 }
