@@ -281,10 +281,12 @@ margin-left:2%;
   height: 32px;
   border: none;
   background-color: transparent;
+  fill: var(--text-color);
 }
 
 .mob-menu-close-icon {
   fill: var(--text-color);
+  stroke: var(--text-color);
 }
 
 .mob-menu-nav-list {
