@@ -696,15 +696,15 @@ height: auto;
 
 
 .modal-close {
-
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
+
   border: none;
   background-color: transparent;
-
+  
+  fill: var(--text-color);
+  stroke: var(--text-color);
 }
 
 .modal-close-icon {
