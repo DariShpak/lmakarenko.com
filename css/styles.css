@@ -461,6 +461,18 @@ margin-top: 24px;
   font-size:20px;
 }
 
+/* ---------------------ABOUT HD-------------- */
+
+
+.about-hd-section .title {
+  margin-bottom: 48px;
+}
+
+.about-hd-section .text {
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
 /* ----------------PROJECTS--------------- */
 .projects-title {
   margin-bottom: 24px;
@@ -699,12 +711,12 @@ height: auto;
   stroke: var(--text-color);
 }
 
+/* ------------------------MODAL--------------------- */
+
 .modal-close {
   border: none;
   background-color: transparent;
 }
-
-
 
 .modal-backdrop {
   position: fixed;
@@ -775,15 +787,7 @@ padding: 16px;
 }
 
 
-.about-hd-section .title {
-  margin-top: 24px;
-  margin-bottom: 48px;
-}
 
-.about-hd-section .text {
-  text-align: justify;
-  margin-bottom: 24px;
-}
 
 .button-link{
 text-decoration: none;
