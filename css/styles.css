@@ -704,11 +704,11 @@ height: auto;
   height: 32px;
   border: none;
   background-color: transparent;
-  fill: var(--text-color);
+  /* fill: var(--text-color); */
 }
 
 .modal-close-icon {
-  fill: var(--text-color);
+fill: var(--text-color);
 stroke: var(--text-color);
 }
 
