@@ -270,25 +270,6 @@ margin-left:2%;
   -webkit-overflow-scrolling: touch;
 }
 
-.mob-menu-close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* margin-left: auto; */
-
-  width: 32px;
-  height: 32px;
-  border: none;
-  background-color: transparent;
-  fill: var(--text-color);
-}
-
-.mob-menu-close-icon {
-  fill: var(--text-color);
-  stroke: var(--text-color);
-}
-
 .mob-menu-nav-list {
   padding-left: 24px;
   padding-right: 24px;
@@ -713,10 +694,28 @@ height: auto;
 
 /* ------------------------MODAL--------------------- */
 
+
 .modal-close {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-left: auto; */
+
+  width: 32px;
+  height: 32px;
   border: none;
   background-color: transparent;
+  fill: var(--text-color);
 }
+
+.modal-close-icon {
+  fill: var(--text-color);
+  stroke: var(--text-color);
+}
+
 
 .modal-backdrop {
   position: fixed;
