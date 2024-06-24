@@ -697,7 +697,6 @@ height: auto;
 
 .modal-close {
 
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -713,7 +712,7 @@ height: auto;
 
 .modal-close-icon {
   fill: var(--text-color);
-  stroke: var(--text-color);
+
 }
 
 
@@ -785,9 +784,6 @@ padding: 16px;
   margin-top: 24px;
 }
 
-
-
-
 .button-link{
 text-decoration: none;
 }
@@ -850,7 +846,6 @@ text-decoration: none;
     padding-top: 64px;
     padding-bottom: 64px;
   }
-
 
   .header {
     padding-top: 32px;
