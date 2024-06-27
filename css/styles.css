@@ -135,9 +135,6 @@ address {
 }
 
 .title {
-  /* font-size: 64px;
-  line-height: calc(76.8 / 64); */
-
   font-size: 28px;
   line-height: calc(37.6 / 28);
   font-weight: 300;
@@ -387,6 +384,10 @@ margin-left:2%;
 
 .price-wrap{
   margin-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 
