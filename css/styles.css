@@ -132,7 +132,7 @@ address {
 
 .title {
   font-size: 28px;
-  line-height: calc(37.6 / 28);
+  line-height: 1.4;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -146,13 +146,13 @@ address {
 .subtitle {
   font-weight: 300;
   font-size: 18px;
-  line-height: calc(33.6 / 28);
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
 .text {
   font-size: 14px;
-  line-height: calc(30.6 / 18);
+  line-height: 1.6;
 }
 
 .horizontal-line {
@@ -313,17 +313,22 @@ margin-left:2%;
 .hero-title {
   font-weight: 400;
   font-size: 36px;
-  line-height: calc(36 / 36);
+  line-height: 1.4;
   text-transform: uppercase;
 
   margin-bottom: 16px;
 }
 
 .hero-subtitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: calc(33.6 / 18);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
 
+.hero-text {
+  font-size: 16px;
+  line-height: 1.6;
   margin-bottom: 24px;
 }
 
@@ -348,8 +353,7 @@ margin-left:2%;
 
   max-width: 320px;
   max-height: 320px;
-  /* height: auto;
-  flex-grow: 1; */
+
 }
 
 .img-wrap > img {
@@ -364,14 +368,31 @@ margin-left:2%;
 .about-text-area {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 
   text-align: justify;
 }
 
 
-/* ----------------------SERVICES-------------------*/
+/* ---------------------ABOUT HD-------------- */
 
+.about-hd-section .title {
+  margin-bottom: 24px;
+}
+
+.about-hd-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-hd-section .text {
+  text-align: justify;
+  margin-bottom: 12px;
+}
+
+
+
+/* ----------------------SERVICES-------------------*/
 
 .services-container {
   display: flex;
@@ -383,7 +404,9 @@ margin-left:2%;
 
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
+
+  max-width: 240px;
 }
 
 
@@ -440,19 +463,8 @@ margin-top: 24px;
 
 .main-section-title {
   text-align: start;
-  font-size:20px;
-}
-
-/* ---------------------ABOUT HD-------------- */
-
-
-.about-hd-section .title {
-  margin-bottom: 48px;
-}
-
-.about-hd-section .text {
-  text-align: justify;
-  margin-bottom: 24px;
+  line-height: 1.6;
+  font-size:18px;
 }
 
 /* ----------------PROJECTS--------------- */
@@ -819,6 +831,10 @@ text-decoration: none;
     font-size: 48px;
   }
 
+  .hero-subtitle{
+    font-size: 22px;
+  }
+
   .main-section-title {
     text-align: start;
     font-size:24px;
@@ -1081,6 +1097,11 @@ justify-content: space-between;
     margin-left: 24px;
   }
 
+  .hero-img-wrap {
+    max-width: 640px;
+    max-height: 640px;
+  }
+
   .img-wrap {
     max-width: 440px;
     max-height: 440px;
@@ -1137,6 +1158,10 @@ justify-content: space-between;
 
   .hero-subtitle {
     font-size: 32px;
+  }
+
+  .hero-text{
+    font-size: 22px;
   }
 
   .hero-img-wrap {
