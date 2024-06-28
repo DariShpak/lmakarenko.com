@@ -1,6 +1,5 @@
 :root {
   --bg-color: #fdfbf5;
-
   --lemony: #fbecb5;
   --text-color: #17181a;
 }
@@ -45,9 +44,7 @@ body.lock-scroll {
   visibility: hidden;
   pointer-events: none;
 }
-.list {
-  list-style: none;
-}
+
 .link {
   text-decoration: none;
   color: var(--text-color);
@@ -74,7 +71,6 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-
 }
 
 .list {
