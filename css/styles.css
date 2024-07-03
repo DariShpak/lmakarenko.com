@@ -506,6 +506,8 @@ margin-top: 24px;
     border: 1px solid var(--text-color);
     transform: translateY(100%);
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    overflow: auto;
 }
 
 .project-top-wrapper:hover .project-card-overlay{
