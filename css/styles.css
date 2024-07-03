@@ -727,6 +727,7 @@ height: auto;
   border: none;
   background-color: transparent;
   cursor: pointer;
+  z-index: 1;
 }
 
 #scrollToTopBtn.show {
