@@ -426,6 +426,8 @@ flex-direction: column;
   padding: 20px 24px 20px 24px;
   border: 1px solid var(--text-color);
   border-radius: 16px;
+
+  max-width: 360px;
 }
 
 .services-item-top{
@@ -484,12 +486,14 @@ margin-top: 24px;
 }
 
 .project-card {
-  
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   max-width: 360px;
+}
 
+.project-card-text{
+  font-size: 12px;
 }
 
 .project-top-wrapper{
@@ -524,10 +528,17 @@ margin-top: 24px;
 .project-img {
   border-radius: 16px;
   overflow: hidden;
+
+
 }
 
 .project-img-wrap {
   max-height: 220px;
+  width: 100%;
+}
+
+.podcast-list {
+  margin-top: 24px;
 }
 
 /* ----------------COURSES------------- */
@@ -988,19 +999,18 @@ justify-content: space-between;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 24px;
   }
 
   .project-card {
     display: flex;
-
     gap: 16px;
-    max-width: 310px;
+ max-width: 320px;
   }
 
-  .project-img-wrap {
-    max-height: 310px;
-    overflow: hidden;
+  .project-img-wrap{
+    max-width: 320px;
+    max-height: 320px;
   }
 
   .courses-title {
@@ -1165,18 +1175,19 @@ justify-content: space-between;
   flex-direction: column;
   }
 
+
+
   .project-img-wrap {
-    width: 460px;
+    width:460px;
     height: 460px;
   }
 
   .projects-list{
-    gap:96px;
+    gap:48px;
   }
 
   .project-card {
-
-    max-width: 360px;
+    max-width: 460px;
   }
 
   .hero-title {
