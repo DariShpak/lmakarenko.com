@@ -155,6 +155,9 @@ address {
   line-height: 1.6;
 }
 
+.text-accent {
+  font-weight: 500;
+}
 .horizontal-line {
 margin-left:2%;
 
@@ -406,6 +409,10 @@ margin-left:2%;
   flex-direction: column;
   gap: 6px;
 
+}
+
+.price-text{
+  margin-top: 16px;
 }
 
 .services-content-top {
