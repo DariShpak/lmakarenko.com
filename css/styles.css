@@ -792,7 +792,7 @@ left: 0;
   transform: translate(-50%, -50%);
   height: 92%;
 width: 92%;
-  border: 1px solid var(--text-color);
+
 }
 
 .modal-header{
