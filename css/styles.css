@@ -379,7 +379,7 @@ margin-left:2%;
 
 /* ---------------------ABOUT HD-------------- */
 
-.about-hd-section .title {
+.about-human-design-section .title {
   margin-bottom: 24px;
 }
 
@@ -388,7 +388,7 @@ margin-left:2%;
   flex-direction: column;
 }
 
-.about-hd-section .text {
+.about-human-design-section .text {
   text-align: justify;
   margin-bottom: 12px;
 }
