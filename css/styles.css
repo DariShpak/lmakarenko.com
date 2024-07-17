@@ -472,9 +472,9 @@ margin-top: 24px;
 }
 
 .services-content-bottom {
-  margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 24px;
 }
 
@@ -508,7 +508,7 @@ margin-top: 24px;
 }
 
 .project-card-text{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .project-top-wrapper{
