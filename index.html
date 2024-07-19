@@ -1022,33 +1022,19 @@
                   placeholder="Ваш телеграм"
                   id="telegram"
                 />
-                <label for="order">Оберіть послугу</label>
-                <select id="order" name="order">
-                  <optgroup label="Особисті консультації">
-                    <option value="прочитання" selected>Прочитання</option>
-                    <option value="композит">Композит</option>
-                    <option value="призначення">Призначення</option>
-                    <option value="цикли">Читання циклів</option>
-                    <option value="підтримуюча сесія">Підтримуючі сесії</option>
-                  </optgroup>
-                  <optgroup label="Для бізнесу">
-                    <option value="інженеринг команд" selected>
-                      Інженеринг команд
-                    </option>
-                    <option value="карʼєрний профіль">Карʼєрний профіль</option>
-                    <option value="партнерство">Партнерство</option>
-                    <option value="bg-5">Корпоративний тренінг BG-5</option>
-                  </optgroup>
-                  <optgroup label="Навчання">
-                    <option value="дизайн">«Жити свій Дизайн</option>
-                    <option value="рейв-abc">«Рейв АВС»</option>
-                    <option value="кухня">«Кухня HUMAN ENGINEERING»</option>
-                  </optgroup>
-                  <optgroup label="Консультація знайомство">
-                    <option value="free-20min">
-                      20-хвилинна безкоштовна консультація
-                    </option>
-                  </optgroup>
+                <!-- <label for="order" class="form-label">Оберіть послугу</label> -->
+                <select id="order" name="order" class="text" class="select">
+                  <option value="особиста консультація" selected>
+                    Особиста консультація
+                  </option>
+                  <option value="для бізнесу">Для бізнесу</option>
+                  <option value="навчання">Навчальний курс</option>
+                  <option value="безкоштовна 20хв">
+                    20-хвилинна безкоштовна консультація
+                  </option>
+                  <option value="підтримуюча">
+                    Підтримуюча консультація
+                  </option>
                 </select>
                 <textarea
                   class="form-input"
@@ -1060,8 +1046,7 @@
                 <button type="submit" class="button form-btn">Надіслати</button>
               </form>
               <div id="successMessage">
-                Дякую ツ Ваше повідомлення було надіслано, і скоро я з вами
-                звʼяжусь.
+                Дякую ツ Ваш запит було надіслано, і скоро я з вами звʼяжусь.
               </div>
               <div id="errorMessage">Ой! Спробуйте, будь ласка, ще раз.</div>
             </div>

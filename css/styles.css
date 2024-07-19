@@ -819,19 +819,26 @@ address {
   margin-top: 16px;
 }
 
-.form-input {
+.form-input,
+select {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--text-color);
-  font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 18px;
   text-transform: capitalize;
   padding: 16px;
 }
 
 .form-input:hover,
-.form-input:focus {
-  outline: none;
+.form-input:focus,
+.select:hover,
+.select:focus,
+.select:active {
+  outline: 0.5px solid var(--text-color);
+  border-bottom: none;
   background-color: #ebeae6;
 }
 
