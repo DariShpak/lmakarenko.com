@@ -1022,11 +1022,32 @@
                   placeholder="Ваш телеграм"
                   id="telegram"
                 />
+                <label for="order">Оберіть послугу</label>
+                <select id="order" name="order">
+                  <optgroup label="Особисті консультації">
+                    <option value="reading" selected>Прочитання</option>
+                    <option value="composite">Композит</option>
+                    <option value="purpose">Призначення</option>
+                    <option value="cycle">Читання циклів</option>
+                    <option value="after-session">Підтримуючі сесії</option>
+                  </optgroup>
+
+                  <option value="business">Для бізнесу</option>
+                  <option value="free-20min">
+                    20-ХВИЛИННУ БЕЗКОШТОВНУ КОНСУЛЬТАЦІЮ
+                  </option>
+
+                  <option value="design-course">КУРС «ЖИТИ СВІЙ ДИЗАЙН»</option>
+                  <option value="rave-abc-course">КУРС «РЕЙВ АВС»</option>
+                  <option value="rave-abc-course">
+                    «КУХНЯ HUMAN ENGINEERING»
+                  </option>
+                </select>
                 <textarea
                   class="form-input"
                   name="message"
                   id="message"
-                  placeholder="Ваше повідомлення"
+                  placeholder="Ваш запит"
                   required
                 ></textarea>
                 <button type="submit" class="button form-btn">Надіслати</button>
