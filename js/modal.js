@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const form = event.target
       const formData = new FormData(form)
 
-      fetch("https://formspree.io/f/mpzvgkqe", {
+      fetch("https://formspree.io/f/movajqej", {
         method: "POST",
         body: formData,
         headers: {
