@@ -734,13 +734,11 @@ address {
 .heart-icon {
   animation: beat 0.7s infinite alternate;
   transform-origin: center;
-  margin-right: 2px;
-  margin-left: 2px;
 }
 
 @keyframes beat {
   to {
-    transform: scale(2);
+    transform: scale(2.4);
   }
 }
 
