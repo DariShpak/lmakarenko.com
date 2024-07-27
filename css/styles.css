@@ -740,7 +740,7 @@ address {
 
 @keyframes beat {
   to {
-    transform: scale(2.4);
+    transform: scale(2);
   }
 }
 
