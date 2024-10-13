@@ -330,6 +330,10 @@ address {
   margin-bottom: 24px;
 }
 
+.info-wrap .hero-text{
+  margin-bottom: 0;
+}
+
 .hero-btn {
   width: 180px;
   margin-bottom: 24px;
@@ -819,7 +823,7 @@ address {
   margin-top: 16px;
 }
 
-.form-input{
+.form-input {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--text-color);
@@ -952,6 +956,10 @@ address {
 
     max-width: 340px;
     max-height: 340px;
+  }
+
+  .course-hero-text-wrap {
+    max-width: 320px;
   }
 
   .services-container {
@@ -1186,6 +1194,10 @@ address {
     max-height: 640px;
   }
 
+  .course-hero-text-wrap {
+    max-width: 520px;
+  }
+
   .img-wrap {
     max-width: 440px;
     max-height: 440px;
@@ -1248,6 +1260,16 @@ address {
   .hero-text-content {
     min-width: 600px;
   }
+
+  .course-hero-text-wrap {
+    min-width: 660px;
+  }
+
+  .info-wrap .course-description {
+    min-width: 460px;
+
+  }
+
   .hero-title {
     font-size: 96px;
   }
