@@ -370,6 +370,106 @@
           </div>
         </div>
       </footer>
+      <div class="modal-backdrop is-hidden" data-modal>
+        <div class="modal-window">
+          <div class="container">
+            <div class="modal-header">
+              <a href="/">
+                <img
+                  class="logo"
+                  src="./images/logo.png"
+                  alt="логотип сайту"
+                  width="160"
+              /></a>
+              <button class="modal-close" type="button" data-modal-close>
+                <svg
+                  class="modal-close-icon"
+                  width="30"
+                  height="30"
+                  fill="var(--text-color)"
+                  stroke="var(--text-color)"
+                >
+                  <use href="./images/icons/icons.svg#icon-close2"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="modal-content section">
+              <div class="modal-content-top">
+                <h2 class="modal-title title">
+                  Подорож до пізнання себе може розпочатися для вас вже зараз
+                </h2>
+                <ul class="socials">
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      aria-label="instagram"
+                      >in</a
+                    >
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://www.facebook.com/lesia.makarenko"
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      aria-label="facebook"
+                      >fb</a
+                    >
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://t.me/Lesia_Makarenko"
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      >Tg</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <form
+                class="contact-form"
+                id="my-form"
+                action="https://formspree.io/f/movajqej"
+                method="POST"
+              >
+                <input type="hidden" name="source" id="source-input" />
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше імʼя"
+                  id="name"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="text"
+                  name="telegram"
+                  placeholder="Ваш телеграм"
+                  id="telegram"
+                />
+                <textarea
+                  class="form-input textarea"
+                  name="message"
+                  id="message"
+                  placeholder="Ваш запит"
+                  required
+                ></textarea>
+                <button type="submit" class="button form-btn">Надіслати</button>
+              </form>
+              <div id="successMessage">
+                Дякую ツ Ваш запит було надіслано, і скоро я з вами звʼяжусь.
+              </div>
+              <div id="errorMessage">Ой! Спробуйте, будь ласка, ще раз.</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="./js/mobile-menu.js"></script>
     <script type="module" src="./js/modal.js"></script>
