@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // Зупиняємо спостереження після активації анімації
+        observer.unobserve(entry.target);
       }
     });
   }, {
-    threshold: 0.1 // Відсоток видимості елемента для активації анімації
+    threshold: 0.1 
   });
 
   lines.forEach(line => {
