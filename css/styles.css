@@ -131,7 +131,6 @@ address {
 }
 
 .meeting-button {
-
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -1002,6 +1001,7 @@ address {
   .price-wrap {
     margin-top: 0;
     width: 360px;
+    height: fit-content;
   }
   .services-container .horizontal-line {
     margin-left: 0;
